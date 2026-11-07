@@ -1,0 +1,17 @@
+{
+  "original_config_sha256": "26afbb03e48e36d40baf8963ddeae2f3c80383af0c518e8edc78e608bd034b80",
+  "release_config_sha256": "d7ea4b08b6cff35dab8a0b2e71ea0434a7d6f00f33323011202591f3cf59a6b6",
+  "statistical_fields_unchanged": [
+    "base",
+    "units",
+    "unit_fields",
+    "dependencies",
+    "seeds",
+    "parameter_grids",
+    "bootstrap",
+    "thresholds",
+    "age_spline",
+    "missingness"
+  ],
+  "meaning": "Historical experiment configuration and metadata-sanitized configuration. Statistical definitions are preserved."
+}

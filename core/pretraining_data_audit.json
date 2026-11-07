@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "prediction_models_trained": false,
+  "candidate_units_count_before_dependency_decision": 18,
+  "cohort_checks": [
+    {
+      "cycle": "G",
+      "n": 3323,
+      "events": 1691,
+      "weighted_prevalence": 0.4112522017345505,
+      "analytic_PSUs": 31,
+      "design_PSUs": 31,
+      "same_audited_ids_labels_weights": true,
+      "structural_OHQ770_n": 48
+    },
+    {
+      "cycle": "H",
+      "n": 3617,
+      "events": 1547,
+      "weighted_prevalence": 0.34283738160588945,
+      "analytic_PSUs": 30,
+      "design_PSUs": 30,
+      "same_audited_ids_labels_weights": true,
+      "structural_OHQ770_n": 38
+    }
+  ],
+  "original_sources_sha256": {
+    "raw/codebooks/NHANES_DEMO_G.html": "cdf55813f1f774aa1a811dd5ea98d4a941fb6a434b61ee4a82716cb2aa30e22d",
+    "raw/codebooks/NHANES_DEMO_H.html": "bc6d64d009679970f1175e9074fda5db113797fa6f9b5f7b8a83f6d351dfd3df",
+    "raw/codebooks/NHANES_DIQ_G.html": "6fc79995409cb721a5568ceed17243ad071ae9ba182bc6c82021ae71f8d911ac",
+    "raw/codebooks/NHANES_DIQ_H.html": "95784181a16a90b2203e6946d75f9f2d0bdbe1b82e188af09d1984691cf5ffcb",
+    "raw/codebooks/NHANES_HUQ_G.html": "3bb3ad55229fc5f1f3a3e395d1a231ac78db3d2dc80155b010546a144e27c7ee",
+    "raw/codebooks/NHANES_HUQ_H.html": "b36f2b1a88750cdd7c6e6f9de606364365a4b55fe9a8cc09ff91d76610d5ef8e",
+    "raw/codebooks/NHANES_OHQ_G.html": "cb521b40681fbae3b979683753f57c9e5978b55892bb3c591cc73abb6b6cad76",
+    "raw/codebooks/NHANES_OHQ_H.html": "220622fbbe4ee2a7aa7b79b1a240c614e2b3f568bb8f7aa1ea7b1eee01ff68a3",
+    "raw/codebooks/NHANES_SMQ_G.html": "6919332b21763ce09f7e4d253cce6fd2886a847e3ecb3e5f1a8ed17876a70b4b",
+    "raw/codebooks/NHANES_SMQ_H.html": "679f56ba34d977568afde8b228ed2f1e55e8de5aa179efa8915683828fe5e70e",
+    "raw/DEMO_G.xpt": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "raw/DEMO_H.xpt": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7",
+    "raw/DIQ_G.xpt": "a9d5475e0cd66d6a7bc30230345ed0172a9abcbc0a7a4145a35025c827a52a87",
+    "raw/DIQ_H.xpt": "c74c7ccef65e6997dfac1db1e73bc3f63dec67c70b2e322ffc14f14ce27429a9",
+    "raw/HUQ_G.xpt": "b9ef438747fdc746185a2eb0bec9e63e36212efdc774f2c8bec7f680a60ee924",
+    "raw/HUQ_H.xpt": "a35e8ca0c5b7ca6a86a8d787cbd0c3132a10ef5f66b8b432c57885f7bbaa04dd",
+    "raw/OHQ_G.xpt": "db7ebf306e5d93b31e79fe45a86743b4c254657a841c038373bc706da3651faf",
+    "raw/OHQ_H.xpt": "1cdec4ac5c1e2012f00ad0a377947ab1e34a9daafe1408a9469b0967b4686bf5",
+    "raw/OHXPER_G.xpt": "128c369eb836d8b651ea1422566890b410d9dc56019f7b49668755bdb0338310",
+    "raw/OHXPER_H.xpt": "f2b9df0ade5fcd27e072e61daf680078d34cb28c847c1e17b0b4052cff529981",
+    "raw/SMQ_G.xpt": "69f2375f036a815082b1e97110e79c505b91e0985c61696f8eaacf94828115dc",
+    "raw/SMQ_H.xpt": "86d74bb8842ce6d60350944417cbd3e9ee39dd5a9fa1bda33426f276b673861f"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "interpret-core": "0.7.8",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "pyreadstat": "1.3.6"
+  },
+  "python": "Python 3.13.5",
+  "outstanding_issue": "OHQ770 is skipped when OHQ030=7; select parent-closure or joint service unit before freezing and training"
+}

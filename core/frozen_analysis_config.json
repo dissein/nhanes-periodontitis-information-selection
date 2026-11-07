@@ -1,0 +1,346 @@
+{
+  "study": "NHANES self-report questionnaire reduction, redesigned age/sex base",
+  "created_local": "2026-10-23 Asia/Shanghai; before first new model fit",
+  "coding_issues_resolved": true,
+  "resolution_record": {
+    "decision": "exclude_OHQ770",
+    "authorization_source": "direct_user_response",
+    "decision_basis": "OHQ770 excluded before fitting to resolve questionnaire routing dependency."
+  },
+  "source_cycle": "G:2011-2012",
+  "target_cycle": "H:2013-2014",
+  "endpoint": "CDC/AAP moderate or severe, raw audited scalar classification",
+  "base": [
+    "RIDAGEYR",
+    "RIAGENDR"
+  ],
+  "units": [
+    "DMDEDUC2",
+    "INDFMIN2",
+    "SmokingStatus",
+    "DIQ010",
+    "HUQ010",
+    "OHQ835",
+    "OHQ845",
+    "OHQ865",
+    "OHQ855",
+    "OHQ620",
+    "OHQ640",
+    "OHQ680",
+    "OHQ870",
+    "OHQ875",
+    "OHQ030",
+    "OHQ850",
+    "OHQ860"
+  ],
+  "unit_fields": {
+    "DMDEDUC2": [
+      "DMDEDUC2"
+    ],
+    "INDFMIN2": [
+      "INDFMIN2"
+    ],
+    "SmokingStatus": [
+      "SmokingStatus"
+    ],
+    "DIQ010": [
+      "DIQ010"
+    ],
+    "HUQ010": [
+      "HUQ010"
+    ],
+    "OHQ835": [
+      "OHQ835"
+    ],
+    "OHQ845": [
+      "OHQ845"
+    ],
+    "OHQ865": [
+      "OHQ865"
+    ],
+    "OHQ855": [
+      "OHQ855"
+    ],
+    "OHQ620": [
+      "OHQ620"
+    ],
+    "OHQ640": [
+      "OHQ640"
+    ],
+    "OHQ680": [
+      "OHQ680"
+    ],
+    "OHQ870": [
+      "OHQ870"
+    ],
+    "OHQ875": [
+      "OHQ875"
+    ],
+    "OHQ030": [
+      "OHQ030"
+    ],
+    "OHQ850": [
+      "OHQ850"
+    ],
+    "OHQ860": [
+      "OHQ860"
+    ]
+  },
+  "dependencies": {},
+  "path_rule": "Visit units in raw aggregated-importance rank order; recursively insert any unmet prerequisite immediately before child; take each feasible prefix k=0..U. Report raw rank separately from constrained path order.",
+  "excluded_main": [
+    "OHQ770",
+    "race/ethnicity",
+    "marital status",
+    "OHQ033",
+    "OHQ780A-K",
+    "hypertension",
+    "other chronic diseases",
+    "clinical measurement",
+    "laboratory",
+    "physical measurement"
+  ],
+  "income": "INDFMIN2 nominal categorical; 12/13 valid coarse brackets; no other income representation",
+  "missingness": {
+    "categorical": "Separate REFUSED, UNKNOWN, SYSTEM_MISSING; OHQ770 excluded by direct user instruction; raw routing retained only in audit. Codebook categories define validity before modeling.",
+    "days": "Median imputation fit in each training domain; separate refused/unknown/system-missing indicators.",
+    "smoking": "020=2 Never regardless legitimate skipped040; 020=1 &040=3 Former; 020=1 &040 in [1,2] Current; retain unknown/refused/system states.",
+    "diabetes": "DIQ010=3 Borderline is a valid independent category"
+  },
+  "age_spline": {
+    "model": "Logistic only",
+    "n_knots": 4,
+    "degree": 3,
+    "include_bias": false,
+    "extrapolation": "constant",
+    "fit_scope": "current training domain"
+  },
+  "parameter_grids": {
+    "Logistic": [
+      {
+        "C": 0.01
+      },
+      {
+        "C": 0.1
+      },
+      {
+        "C": 1.0
+      },
+      {
+        "C": 10.0
+      }
+    ],
+    "EBM": [
+      {
+        "interactions": 0,
+        "max_leaves": 2
+      },
+      {
+        "interactions": 0,
+        "max_leaves": 3
+      }
+    ],
+    "XGBoost": [
+      {
+        "max_depth": 2,
+        "min_child_weight": 10
+      },
+      {
+        "max_depth": 3,
+        "min_child_weight": 15
+      }
+    ]
+  },
+  "fixed_parameters": {
+    "EBM": {
+      "outer_bags": 4,
+      "learning_rate": 0.03,
+      "max_rounds": 1000,
+      "max_bins": 64,
+      "max_interaction_bins": 16,
+      "validation_size": 0.15,
+      "early_stopping_rounds": 30
+    },
+    "XGBoost": {
+      "n_estimators": 250,
+      "learning_rate": 0.04,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 10,
+      "reg_alpha": 0.2,
+      "tree_method": "hist"
+    }
+  },
+  "cv": {
+    "outer": 5,
+    "inner": 3,
+    "group": "original stratum+PSU; duplicated copies never split",
+    "stratification": "participant CDC/AAP target label, not survey stratum; survey stratum retained for resampling",
+    "selection_score": "unweighted mean across folds of survey-weighted fold AUC",
+    "tie_break": "first parameter-grid entry, strict >; importance ties use frozen candidate order"
+  },
+  "ebm_internal_validation": "4 explicit GroupShuffleSplit PSU-disjoint bags, 15% group holdout; retry deterministically until both classes present; each bag shares training-domain preprocessing, no outer evaluation observations used",
+  "attribution": "Native additive EBM or exact XGBoost pred_contribs; signed encoded-column sums per information unit then survey-weighted mean absolute value; rank only candidate units, Base always retained",
+  "thresholds": {
+    "target_sensitivity": 0.9,
+    "outer": "Each outer-training domain inner3 OOF Logistic predictions; ranks selected within outer-training domain. These inner predictions are model-fit OOF conditional on source-selected units, not fully selection-independent. Outer evaluation remains isolated.",
+    "final": "Full development nested outer OOF pipeline predictions for corresponding algorithm and k; threshold is highest finite probability achieving weighted sensitivity>=.90; freeze before H evaluation",
+    "pooled_source_screening": "Use each held-out individual fold-specific inner-training threshold; do not reselect pooled-source threshold to report held-out screening"
+  },
+  "metrics": {
+    "main": [
+      "auc",
+      "brier",
+      "calibration_intercept",
+      "calibration_slope",
+      "sensitivity",
+      "specificity",
+      "flagged_fraction"
+    ],
+    "supplement": [
+      "log_loss"
+    ],
+    "calibration": "joint intercept and slope; not fixed-slope1 calibration-in-the-large; weighted risk deciles, preserve score ties",
+    "probability_clip_for_logloss_and_calibration": [
+      1e-06,
+      0.999999
+    ],
+    "Brier": "original probabilities, same evaluation individuals and survey weights"
+  },
+  "bootstrap": {
+    "fixed_target_B": 2000,
+    "source_stability_B": 500,
+    "method": "Rao-Wu rescaled; full survey design within stratum draw m-1 PSUs with replacement, multiply frequencies by m/(m-1), then map to analysis domain",
+    "source_implementation": "Literal repeated source rows, scale applied once, all copies retain original PSU group. Retune EBM and XGBoost with frozen source3 grids every replicate. No downstream budget model refits.",
+    "target": "fixed probabilities, models, units, cutoffs; paired draws for all budgets",
+    "intervals": "2.5/97.5 percentile pointwise, no joint-curve or noninferiority claim",
+    "stability": "raw topk and dependency-feasible topk separately; full rank distribution, selection frequency, Spearman/Kendall agreement, Nogueira and pairwise Jaccard"
+  },
+  "source_discussion_candidates": "Descriptive feasible-path budgets at 80%/90% source importance concentration and source AUC/Brier/unit-count nondominance; no required optimal length, no one-SE or clinical loss threshold, no target-based choice",
+  "seeds": {
+    "outer": 2026102301,
+    "inner": 2026102302,
+    "fit": 2026102303,
+    "target_bootstrap": 2026102400,
+    "stability_bootstrap": 2026102500
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "interpret-core": "0.7.8",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "pyreadstat": "1.3.6"
+  },
+  "python": "Python 3.13.5",
+  "input_data_sha256": {
+    "data\\model_input_G.csv.gz": "bb33797e5f630065733899ce1a00c04f9dfd4e7f6d9eba8ba24eb8999ecfad3a",
+    "data\\model_input_H.csv.gz": "58af4396cac0924e2d25805dfcd5795a3ebb6c539acd3b4abcfda6a7706e3772",
+    "data\\design_G.csv": "e59aeeac2248c4ea5737cee6a2821471af016f1966f01f3010021be19e7809c2",
+    "data\\design_H.csv": "48b0ddd4e81ff021e8b42238dff023626d1a5bd792c48bde4294cadead1948e3",
+    "frozen_candidate_dictionary.csv": "7d1d2a6790451862ff5a83515e9c17c3e6cf4519809728f7a00f43b990628cce"
+  },
+  "library_defaults_snapshot": {
+    "EBM": {
+      "callback": null,
+      "cat_smooth": 10.0,
+      "cyclic_progress": false,
+      "early_stopping_rounds": 100,
+      "early_stopping_tolerance": 1e-05,
+      "exclude": null,
+      "feature_names": null,
+      "feature_types": null,
+      "gain_scale": 5.0,
+      "greedy_ratio": 10.0,
+      "inner_bags": 0,
+      "interaction_smoothing_rounds": 75,
+      "interactions": "3x",
+      "learning_rate": 0.015,
+      "max_bins": 1024,
+      "max_delta_step": 0.0,
+      "max_interaction_bins": 64,
+      "max_leaves": 2,
+      "max_rounds": 50000,
+      "min_cat_samples": 10,
+      "min_hessian": 0.0001,
+      "min_samples_leaf": 4,
+      "missing": "separate",
+      "monotone_constraints": null,
+      "n_jobs": -2,
+      "objective": "log_loss",
+      "outer_bags": 14,
+      "random_state": 42,
+      "reg_alpha": 0.0,
+      "reg_lambda": 0.0,
+      "smoothing_rounds": 75,
+      "validation_size": 0.15
+    },
+    "XGBoost": {
+      "objective": "binary:logistic",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": null,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": true,
+      "eval_metric": null,
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": null,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": null,
+      "max_leaves": null,
+      "min_child_weight": null,
+      "missing": "nan (library default)",
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": null,
+      "n_jobs": null,
+      "num_parallel_tree": null,
+      "random_state": null,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": null,
+      "tree_method": null,
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "Logistic": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 100,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "implementation_sha256": {
+    "src/formal_bootstrap.py": "153efe06778ee9ada4cec34254cb48fc36878573cced9ccc1e5d5591b394444a",
+    "src/formal_common.py": "04e71703df67db7b1875f9411b03210b65897dfca2b3f7f45760af4ca7f37343",
+    "src/formal_descriptives.py": "b49ce295d10503a084cc4b220584a45fb2bc766876b99307e57b8796b5734c25",
+    "src/formal_develop.py": "05719ea4c9bdd4049c64c7414c3a085175823af24521546d8c6c0e0ae49338b6",
+    "src/formal_postrun_checks.py": "8899b4e64fa1ef9c4f492e949704a66c745a4ea74bc02f8f8e78b220819ec814"
+  }
+}

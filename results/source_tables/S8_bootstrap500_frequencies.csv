@@ -1,0 +1,579 @@
+method,algorithm,k,unit,label_en,selected_n,frequency,B,mean_pairwise_jaccard
+EBM,EBM,1,DMDEDUC2,Education,248,0.496,500,0.3123847695390782
+EBM,EBM,1,INDFMIN2,Family income,89,0.178,500,0.3123847695390782
+EBM,EBM,1,SmokingStatus,Smoking status,65,0.13,500,0.3123847695390782
+EBM,EBM,1,DIQ010,Diabetes status,0,0.0,500,0.3123847695390782
+EBM,EBM,1,HUQ010,General health rating,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ835,Perceived gum disease,4,0.008,500,0.3123847695390782
+EBM,EBM,1,OHQ845,Teeth/gum health rating,23,0.046,500,0.3123847695390782
+EBM,EBM,1,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ855,Non-traumatic tooth mobility,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ680,Oral self-consciousness,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.3123847695390782
+EBM,EBM,1,OHQ875,Therapeutic mouthwash days in the past week,4,0.008,500,0.3123847695390782
+EBM,EBM,1,OHQ030,Time since last dental visit,65,0.13,500,0.3123847695390782
+EBM,EBM,1,OHQ850,Periodontal treatment history,2,0.004,500,0.3123847695390782
+EBM,EBM,1,OHQ860,Professionally reported bone loss,0,0.0,500,0.3123847695390782
+EBM,EBM,2,DMDEDUC2,Education,344,0.688,500,0.34712892451569805
+EBM,EBM,2,INDFMIN2,Family income,163,0.326,500,0.34712892451569805
+EBM,EBM,2,SmokingStatus,Smoking status,144,0.288,500,0.34712892451569805
+EBM,EBM,2,DIQ010,Diabetes status,0,0.0,500,0.34712892451569805
+EBM,EBM,2,HUQ010,General health rating,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ835,Perceived gum disease,23,0.046,500,0.34712892451569805
+EBM,EBM,2,OHQ845,Teeth/gum health rating,79,0.158,500,0.34712892451569805
+EBM,EBM,2,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ855,Non-traumatic tooth mobility,2,0.004,500,0.34712892451569805
+EBM,EBM,2,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ680,Oral self-consciousness,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.34712892451569805
+EBM,EBM,2,OHQ875,Therapeutic mouthwash days in the past week,12,0.024,500,0.34712892451569805
+EBM,EBM,2,OHQ030,Time since last dental visit,221,0.442,500,0.34712892451569805
+EBM,EBM,2,OHQ850,Periodontal treatment history,10,0.02,500,0.34712892451569805
+EBM,EBM,2,OHQ860,Professionally reported bone loss,2,0.004,500,0.34712892451569805
+EBM,EBM,3,DMDEDUC2,Education,407,0.814,500,0.44122965931863734
+EBM,EBM,3,INDFMIN2,Family income,219,0.438,500,0.44122965931863734
+EBM,EBM,3,SmokingStatus,Smoking status,223,0.446,500,0.44122965931863734
+EBM,EBM,3,DIQ010,Diabetes status,0,0.0,500,0.44122965931863734
+EBM,EBM,3,HUQ010,General health rating,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ835,Perceived gum disease,53,0.106,500,0.44122965931863734
+EBM,EBM,3,OHQ845,Teeth/gum health rating,185,0.37,500,0.44122965931863734
+EBM,EBM,3,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ855,Non-traumatic tooth mobility,4,0.008,500,0.44122965931863734
+EBM,EBM,3,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ680,Oral self-consciousness,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.44122965931863734
+EBM,EBM,3,OHQ875,Therapeutic mouthwash days in the past week,25,0.05,500,0.44122965931863734
+EBM,EBM,3,OHQ030,Time since last dental visit,356,0.712,500,0.44122965931863734
+EBM,EBM,3,OHQ850,Periodontal treatment history,26,0.052,500,0.44122965931863734
+EBM,EBM,3,OHQ860,Professionally reported bone loss,2,0.004,500,0.44122965931863734
+EBM,EBM,4,DMDEDUC2,Education,453,0.906,500,0.5298175780131691
+EBM,EBM,4,INDFMIN2,Family income,292,0.584,500,0.5298175780131691
+EBM,EBM,4,SmokingStatus,Smoking status,336,0.672,500,0.5298175780131691
+EBM,EBM,4,DIQ010,Diabetes status,0,0.0,500,0.5298175780131691
+EBM,EBM,4,HUQ010,General health rating,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ835,Perceived gum disease,89,0.178,500,0.5298175780131691
+EBM,EBM,4,OHQ845,Teeth/gum health rating,264,0.528,500,0.5298175780131691
+EBM,EBM,4,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ855,Non-traumatic tooth mobility,6,0.012,500,0.5298175780131691
+EBM,EBM,4,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ680,Oral self-consciousness,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.5298175780131691
+EBM,EBM,4,OHQ875,Therapeutic mouthwash days in the past week,47,0.094,500,0.5298175780131691
+EBM,EBM,4,OHQ030,Time since last dental visit,423,0.846,500,0.5298175780131691
+EBM,EBM,4,OHQ850,Periodontal treatment history,75,0.15,500,0.5298175780131691
+EBM,EBM,4,OHQ860,Professionally reported bone loss,15,0.03,500,0.5298175780131691
+EBM,EBM,5,DMDEDUC2,Education,477,0.954,500,0.6028851671597164
+EBM,EBM,5,INDFMIN2,Family income,353,0.706,500,0.6028851671597164
+EBM,EBM,5,SmokingStatus,Smoking status,420,0.84,500,0.6028851671597164
+EBM,EBM,5,DIQ010,Diabetes status,0,0.0,500,0.6028851671597164
+EBM,EBM,5,HUQ010,General health rating,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ835,Perceived gum disease,126,0.252,500,0.6028851671597164
+EBM,EBM,5,OHQ845,Teeth/gum health rating,344,0.688,500,0.6028851671597164
+EBM,EBM,5,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ855,Non-traumatic tooth mobility,23,0.046,500,0.6028851671597164
+EBM,EBM,5,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ680,Oral self-consciousness,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.6028851671597164
+EBM,EBM,5,OHQ875,Therapeutic mouthwash days in the past week,89,0.178,500,0.6028851671597164
+EBM,EBM,5,OHQ030,Time since last dental visit,471,0.942,500,0.6028851671597164
+EBM,EBM,5,OHQ850,Periodontal treatment history,156,0.312,500,0.6028851671597164
+EBM,EBM,5,OHQ860,Professionally reported bone loss,41,0.082,500,0.6028851671597164
+EBM,EBM,6,DMDEDUC2,Education,489,0.978,500,0.6541706269682221
+EBM,EBM,6,INDFMIN2,Family income,418,0.836,500,0.6541706269682221
+EBM,EBM,6,SmokingStatus,Smoking status,466,0.932,500,0.6541706269682221
+EBM,EBM,6,DIQ010,Diabetes status,0,0.0,500,0.6541706269682221
+EBM,EBM,6,HUQ010,General health rating,0,0.0,500,0.6541706269682221
+EBM,EBM,6,OHQ835,Perceived gum disease,181,0.362,500,0.6541706269682221
+EBM,EBM,6,OHQ845,Teeth/gum health rating,415,0.83,500,0.6541706269682221
+EBM,EBM,6,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.6541706269682221
+EBM,EBM,6,OHQ855,Non-traumatic tooth mobility,52,0.104,500,0.6541706269682221
+EBM,EBM,6,OHQ620,Oral pain frequency in the past year,4,0.008,500,0.6541706269682221
+EBM,EBM,6,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.6541706269682221
+EBM,EBM,6,OHQ680,Oral self-consciousness,0,0.0,500,0.6541706269682221
+EBM,EBM,6,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.6541706269682221
+EBM,EBM,6,OHQ875,Therapeutic mouthwash days in the past week,137,0.274,500,0.6541706269682221
+EBM,EBM,6,OHQ030,Time since last dental visit,492,0.984,500,0.6541706269682221
+EBM,EBM,6,OHQ850,Periodontal treatment history,246,0.492,500,0.6541706269682221
+EBM,EBM,6,OHQ860,Professionally reported bone loss,100,0.2,500,0.6541706269682221
+EBM,EBM,7,DMDEDUC2,Education,497,0.994,500,0.6887239043744052
+EBM,EBM,7,INDFMIN2,Family income,450,0.9,500,0.6887239043744052
+EBM,EBM,7,SmokingStatus,Smoking status,497,0.994,500,0.6887239043744052
+EBM,EBM,7,DIQ010,Diabetes status,0,0.0,500,0.6887239043744052
+EBM,EBM,7,HUQ010,General health rating,3,0.006,500,0.6887239043744052
+EBM,EBM,7,OHQ835,Perceived gum disease,232,0.464,500,0.6887239043744052
+EBM,EBM,7,OHQ845,Teeth/gum health rating,463,0.926,500,0.6887239043744052
+EBM,EBM,7,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.6887239043744052
+EBM,EBM,7,OHQ855,Non-traumatic tooth mobility,123,0.246,500,0.6887239043744052
+EBM,EBM,7,OHQ620,Oral pain frequency in the past year,16,0.032,500,0.6887239043744052
+EBM,EBM,7,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.6887239043744052
+EBM,EBM,7,OHQ680,Oral self-consciousness,0,0.0,500,0.6887239043744052
+EBM,EBM,7,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.6887239043744052
+EBM,EBM,7,OHQ875,Therapeutic mouthwash days in the past week,207,0.414,500,0.6887239043744052
+EBM,EBM,7,OHQ030,Time since last dental visit,497,0.994,500,0.6887239043744052
+EBM,EBM,7,OHQ850,Periodontal treatment history,331,0.662,500,0.6887239043744052
+EBM,EBM,7,OHQ860,Professionally reported bone loss,184,0.368,500,0.6887239043744052
+EBM,EBM,8,DMDEDUC2,Education,499,0.998,500,0.7212880063156616
+EBM,EBM,8,INDFMIN2,Family income,483,0.966,500,0.7212880063156616
+EBM,EBM,8,SmokingStatus,Smoking status,498,0.996,500,0.7212880063156616
+EBM,EBM,8,DIQ010,Diabetes status,6,0.012,500,0.7212880063156616
+EBM,EBM,8,HUQ010,General health rating,14,0.028,500,0.7212880063156616
+EBM,EBM,8,OHQ835,Perceived gum disease,307,0.614,500,0.7212880063156616
+EBM,EBM,8,OHQ845,Teeth/gum health rating,487,0.974,500,0.7212880063156616
+EBM,EBM,8,OHQ865,Tooth appearance concern in the past three months,7,0.014,500,0.7212880063156616
+EBM,EBM,8,OHQ855,Non-traumatic tooth mobility,203,0.406,500,0.7212880063156616
+EBM,EBM,8,OHQ620,Oral pain frequency in the past year,46,0.092,500,0.7212880063156616
+EBM,EBM,8,OHQ640,Work/school disruption due to oral problems,1,0.002,500,0.7212880063156616
+EBM,EBM,8,OHQ680,Oral self-consciousness,1,0.002,500,0.7212880063156616
+EBM,EBM,8,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.7212880063156616
+EBM,EBM,8,OHQ875,Therapeutic mouthwash days in the past week,282,0.564,500,0.7212880063156616
+EBM,EBM,8,OHQ030,Time since last dental visit,500,1.0,500,0.7212880063156616
+EBM,EBM,8,OHQ850,Periodontal treatment history,390,0.78,500,0.7212880063156616
+EBM,EBM,8,OHQ860,Professionally reported bone loss,276,0.552,500,0.7212880063156616
+EBM,EBM,9,DMDEDUC2,Education,500,1.0,500,0.7599647518813853
+EBM,EBM,9,INDFMIN2,Family income,489,0.978,500,0.7599647518813853
+EBM,EBM,9,SmokingStatus,Smoking status,499,0.998,500,0.7599647518813853
+EBM,EBM,9,DIQ010,Diabetes status,18,0.036,500,0.7599647518813853
+EBM,EBM,9,HUQ010,General health rating,37,0.074,500,0.7599647518813853
+EBM,EBM,9,OHQ835,Perceived gum disease,357,0.714,500,0.7599647518813853
+EBM,EBM,9,OHQ845,Teeth/gum health rating,497,0.994,500,0.7599647518813853
+EBM,EBM,9,OHQ865,Tooth appearance concern in the past three months,21,0.042,500,0.7599647518813853
+EBM,EBM,9,OHQ855,Non-traumatic tooth mobility,308,0.616,500,0.7599647518813853
+EBM,EBM,9,OHQ620,Oral pain frequency in the past year,97,0.194,500,0.7599647518813853
+EBM,EBM,9,OHQ640,Work/school disruption due to oral problems,1,0.002,500,0.7599647518813853
+EBM,EBM,9,OHQ680,Oral self-consciousness,2,0.004,500,0.7599647518813853
+EBM,EBM,9,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.7599647518813853
+EBM,EBM,9,OHQ875,Therapeutic mouthwash days in the past week,367,0.734,500,0.7599647518813853
+EBM,EBM,9,OHQ030,Time since last dental visit,500,1.0,500,0.7599647518813853
+EBM,EBM,9,OHQ850,Periodontal treatment history,432,0.864,500,0.7599647518813853
+EBM,EBM,9,OHQ860,Professionally reported bone loss,375,0.75,500,0.7599647518813853
+EBM,EBM,10,DMDEDUC2,Education,500,1.0,500,0.7971806790403985
+EBM,EBM,10,INDFMIN2,Family income,496,0.992,500,0.7971806790403985
+EBM,EBM,10,SmokingStatus,Smoking status,500,1.0,500,0.7971806790403985
+EBM,EBM,10,DIQ010,Diabetes status,50,0.1,500,0.7971806790403985
+EBM,EBM,10,HUQ010,General health rating,83,0.166,500,0.7971806790403985
+EBM,EBM,10,OHQ835,Perceived gum disease,397,0.794,500,0.7971806790403985
+EBM,EBM,10,OHQ845,Teeth/gum health rating,500,1.0,500,0.7971806790403985
+EBM,EBM,10,OHQ865,Tooth appearance concern in the past three months,43,0.086,500,0.7971806790403985
+EBM,EBM,10,OHQ855,Non-traumatic tooth mobility,398,0.796,500,0.7971806790403985
+EBM,EBM,10,OHQ620,Oral pain frequency in the past year,164,0.328,500,0.7971806790403985
+EBM,EBM,10,OHQ640,Work/school disruption due to oral problems,5,0.01,500,0.7971806790403985
+EBM,EBM,10,OHQ680,Oral self-consciousness,15,0.03,500,0.7971806790403985
+EBM,EBM,10,OHQ870,Interdental cleaning days in the past week,3,0.006,500,0.7971806790403985
+EBM,EBM,10,OHQ875,Therapeutic mouthwash days in the past week,421,0.842,500,0.7971806790403985
+EBM,EBM,10,OHQ030,Time since last dental visit,500,1.0,500,0.7971806790403985
+EBM,EBM,10,OHQ850,Periodontal treatment history,463,0.926,500,0.7971806790403985
+EBM,EBM,10,OHQ860,Professionally reported bone loss,462,0.924,500,0.7971806790403985
+EBM,EBM,11,DMDEDUC2,Education,500,1.0,500,0.7906435390928377
+EBM,EBM,11,INDFMIN2,Family income,498,0.996,500,0.7906435390928377
+EBM,EBM,11,SmokingStatus,Smoking status,500,1.0,500,0.7906435390928377
+EBM,EBM,11,DIQ010,Diabetes status,107,0.214,500,0.7906435390928377
+EBM,EBM,11,HUQ010,General health rating,164,0.328,500,0.7906435390928377
+EBM,EBM,11,OHQ835,Perceived gum disease,421,0.842,500,0.7906435390928377
+EBM,EBM,11,OHQ845,Teeth/gum health rating,500,1.0,500,0.7906435390928377
+EBM,EBM,11,OHQ865,Tooth appearance concern in the past three months,93,0.186,500,0.7906435390928377
+EBM,EBM,11,OHQ855,Non-traumatic tooth mobility,440,0.88,500,0.7906435390928377
+EBM,EBM,11,OHQ620,Oral pain frequency in the past year,265,0.53,500,0.7906435390928377
+EBM,EBM,11,OHQ640,Work/school disruption due to oral problems,14,0.028,500,0.7906435390928377
+EBM,EBM,11,OHQ680,Oral self-consciousness,58,0.116,500,0.7906435390928377
+EBM,EBM,11,OHQ870,Interdental cleaning days in the past week,15,0.03,500,0.7906435390928377
+EBM,EBM,11,OHQ875,Therapeutic mouthwash days in the past week,455,0.91,500,0.7906435390928377
+EBM,EBM,11,OHQ030,Time since last dental visit,500,1.0,500,0.7906435390928377
+EBM,EBM,11,OHQ850,Periodontal treatment history,487,0.974,500,0.7906435390928377
+EBM,EBM,11,OHQ860,Professionally reported bone loss,483,0.966,500,0.7906435390928377
+EBM,EBM,12,DMDEDUC2,Education,500,1.0,500,0.7860417771548267
+EBM,EBM,12,INDFMIN2,Family income,500,1.0,500,0.7860417771548267
+EBM,EBM,12,SmokingStatus,Smoking status,500,1.0,500,0.7860417771548267
+EBM,EBM,12,DIQ010,Diabetes status,193,0.386,500,0.7860417771548267
+EBM,EBM,12,HUQ010,General health rating,247,0.494,500,0.7860417771548267
+EBM,EBM,12,OHQ835,Perceived gum disease,438,0.876,500,0.7860417771548267
+EBM,EBM,12,OHQ845,Teeth/gum health rating,500,1.0,500,0.7860417771548267
+EBM,EBM,12,OHQ865,Tooth appearance concern in the past three months,171,0.342,500,0.7860417771548267
+EBM,EBM,12,OHQ855,Non-traumatic tooth mobility,463,0.926,500,0.7860417771548267
+EBM,EBM,12,OHQ620,Oral pain frequency in the past year,344,0.688,500,0.7860417771548267
+EBM,EBM,12,OHQ640,Work/school disruption due to oral problems,34,0.068,500,0.7860417771548267
+EBM,EBM,12,OHQ680,Oral self-consciousness,109,0.218,500,0.7860417771548267
+EBM,EBM,12,OHQ870,Interdental cleaning days in the past week,38,0.076,500,0.7860417771548267
+EBM,EBM,12,OHQ875,Therapeutic mouthwash days in the past week,473,0.946,500,0.7860417771548267
+EBM,EBM,12,OHQ030,Time since last dental visit,500,1.0,500,0.7860417771548267
+EBM,EBM,12,OHQ850,Periodontal treatment history,495,0.99,500,0.7860417771548267
+EBM,EBM,12,OHQ860,Professionally reported bone loss,495,0.99,500,0.7860417771548267
+EBM,EBM,13,DMDEDUC2,Education,500,1.0,500,0.7952810921563013
+EBM,EBM,13,INDFMIN2,Family income,500,1.0,500,0.7952810921563013
+EBM,EBM,13,SmokingStatus,Smoking status,500,1.0,500,0.7952810921563013
+EBM,EBM,13,DIQ010,Diabetes status,292,0.584,500,0.7952810921563013
+EBM,EBM,13,HUQ010,General health rating,329,0.658,500,0.7952810921563013
+EBM,EBM,13,OHQ835,Perceived gum disease,453,0.906,500,0.7952810921563013
+EBM,EBM,13,OHQ845,Teeth/gum health rating,500,1.0,500,0.7952810921563013
+EBM,EBM,13,OHQ865,Tooth appearance concern in the past three months,240,0.48,500,0.7952810921563013
+EBM,EBM,13,OHQ855,Non-traumatic tooth mobility,483,0.966,500,0.7952810921563013
+EBM,EBM,13,OHQ620,Oral pain frequency in the past year,403,0.806,500,0.7952810921563013
+EBM,EBM,13,OHQ640,Work/school disruption due to oral problems,74,0.148,500,0.7952810921563013
+EBM,EBM,13,OHQ680,Oral self-consciousness,177,0.354,500,0.7952810921563013
+EBM,EBM,13,OHQ870,Interdental cleaning days in the past week,74,0.148,500,0.7952810921563013
+EBM,EBM,13,OHQ875,Therapeutic mouthwash days in the past week,479,0.958,500,0.7952810921563013
+EBM,EBM,13,OHQ030,Time since last dental visit,500,1.0,500,0.7952810921563013
+EBM,EBM,13,OHQ850,Periodontal treatment history,499,0.998,500,0.7952810921563013
+EBM,EBM,13,OHQ860,Professionally reported bone loss,497,0.994,500,0.7952810921563013
+EBM,EBM,14,DMDEDUC2,Education,500,1.0,500,0.8217892569452632
+EBM,EBM,14,INDFMIN2,Family income,500,1.0,500,0.8217892569452632
+EBM,EBM,14,SmokingStatus,Smoking status,500,1.0,500,0.8217892569452632
+EBM,EBM,14,DIQ010,Diabetes status,386,0.772,500,0.8217892569452632
+EBM,EBM,14,HUQ010,General health rating,410,0.82,500,0.8217892569452632
+EBM,EBM,14,OHQ835,Perceived gum disease,464,0.928,500,0.8217892569452632
+EBM,EBM,14,OHQ845,Teeth/gum health rating,500,1.0,500,0.8217892569452632
+EBM,EBM,14,OHQ865,Tooth appearance concern in the past three months,288,0.576,500,0.8217892569452632
+EBM,EBM,14,OHQ855,Non-traumatic tooth mobility,493,0.986,500,0.8217892569452632
+EBM,EBM,14,OHQ620,Oral pain frequency in the past year,446,0.892,500,0.8217892569452632
+EBM,EBM,14,OHQ640,Work/school disruption due to oral problems,145,0.29,500,0.8217892569452632
+EBM,EBM,14,OHQ680,Oral self-consciousness,265,0.53,500,0.8217892569452632
+EBM,EBM,14,OHQ870,Interdental cleaning days in the past week,115,0.23,500,0.8217892569452632
+EBM,EBM,14,OHQ875,Therapeutic mouthwash days in the past week,488,0.976,500,0.8217892569452632
+EBM,EBM,14,OHQ030,Time since last dental visit,500,1.0,500,0.8217892569452632
+EBM,EBM,14,OHQ850,Periodontal treatment history,500,1.0,500,0.8217892569452632
+EBM,EBM,14,OHQ860,Professionally reported bone loss,500,1.0,500,0.8217892569452632
+EBM,EBM,15,DMDEDUC2,Education,500,1.0,500,0.8518350819285632
+EBM,EBM,15,INDFMIN2,Family income,500,1.0,500,0.8518350819285632
+EBM,EBM,15,SmokingStatus,Smoking status,500,1.0,500,0.8518350819285632
+EBM,EBM,15,DIQ010,Diabetes status,427,0.854,500,0.8518350819285632
+EBM,EBM,15,HUQ010,General health rating,449,0.898,500,0.8518350819285632
+EBM,EBM,15,OHQ835,Perceived gum disease,477,0.954,500,0.8518350819285632
+EBM,EBM,15,OHQ845,Teeth/gum health rating,500,1.0,500,0.8518350819285632
+EBM,EBM,15,OHQ865,Tooth appearance concern in the past three months,348,0.696,500,0.8518350819285632
+EBM,EBM,15,OHQ855,Non-traumatic tooth mobility,498,0.996,500,0.8518350819285632
+EBM,EBM,15,OHQ620,Oral pain frequency in the past year,477,0.954,500,0.8518350819285632
+EBM,EBM,15,OHQ640,Work/school disruption due to oral problems,282,0.564,500,0.8518350819285632
+EBM,EBM,15,OHQ680,Oral self-consciousness,354,0.708,500,0.8518350819285632
+EBM,EBM,15,OHQ870,Interdental cleaning days in the past week,194,0.388,500,0.8518350819285632
+EBM,EBM,15,OHQ875,Therapeutic mouthwash days in the past week,494,0.988,500,0.8518350819285632
+EBM,EBM,15,OHQ030,Time since last dental visit,500,1.0,500,0.8518350819285632
+EBM,EBM,15,OHQ850,Periodontal treatment history,500,1.0,500,0.8518350819285632
+EBM,EBM,15,OHQ860,Professionally reported bone loss,500,1.0,500,0.8518350819285632
+EBM,EBM,16,DMDEDUC2,Education,500,1.0,500,0.9092057055287046
+EBM,EBM,16,INDFMIN2,Family income,500,1.0,500,0.9092057055287046
+EBM,EBM,16,SmokingStatus,Smoking status,500,1.0,500,0.9092057055287046
+EBM,EBM,16,DIQ010,Diabetes status,464,0.928,500,0.9092057055287046
+EBM,EBM,16,HUQ010,General health rating,483,0.966,500,0.9092057055287046
+EBM,EBM,16,OHQ835,Perceived gum disease,489,0.978,500,0.9092057055287046
+EBM,EBM,16,OHQ845,Teeth/gum health rating,500,1.0,500,0.9092057055287046
+EBM,EBM,16,OHQ865,Tooth appearance concern in the past three months,394,0.788,500,0.9092057055287046
+EBM,EBM,16,OHQ855,Non-traumatic tooth mobility,500,1.0,500,0.9092057055287046
+EBM,EBM,16,OHQ620,Oral pain frequency in the past year,499,0.998,500,0.9092057055287046
+EBM,EBM,16,OHQ640,Work/school disruption due to oral problems,414,0.828,500,0.9092057055287046
+EBM,EBM,16,OHQ680,Oral self-consciousness,443,0.886,500,0.9092057055287046
+EBM,EBM,16,OHQ870,Interdental cleaning days in the past week,316,0.632,500,0.9092057055287046
+EBM,EBM,16,OHQ875,Therapeutic mouthwash days in the past week,498,0.996,500,0.9092057055287046
+EBM,EBM,16,OHQ030,Time since last dental visit,500,1.0,500,0.9092057055287046
+EBM,EBM,16,OHQ850,Periodontal treatment history,500,1.0,500,0.9092057055287046
+EBM,EBM,16,OHQ860,Professionally reported bone loss,500,1.0,500,0.9092057055287046
+EBM,EBM,17,DMDEDUC2,Education,500,1.0,500,1.0
+EBM,EBM,17,INDFMIN2,Family income,500,1.0,500,1.0
+EBM,EBM,17,SmokingStatus,Smoking status,500,1.0,500,1.0
+EBM,EBM,17,DIQ010,Diabetes status,500,1.0,500,1.0
+EBM,EBM,17,HUQ010,General health rating,500,1.0,500,1.0
+EBM,EBM,17,OHQ835,Perceived gum disease,500,1.0,500,1.0
+EBM,EBM,17,OHQ845,Teeth/gum health rating,500,1.0,500,1.0
+EBM,EBM,17,OHQ865,Tooth appearance concern in the past three months,500,1.0,500,1.0
+EBM,EBM,17,OHQ855,Non-traumatic tooth mobility,500,1.0,500,1.0
+EBM,EBM,17,OHQ620,Oral pain frequency in the past year,500,1.0,500,1.0
+EBM,EBM,17,OHQ640,Work/school disruption due to oral problems,500,1.0,500,1.0
+EBM,EBM,17,OHQ680,Oral self-consciousness,500,1.0,500,1.0
+EBM,EBM,17,OHQ870,Interdental cleaning days in the past week,500,1.0,500,1.0
+EBM,EBM,17,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,1.0
+EBM,EBM,17,OHQ030,Time since last dental visit,500,1.0,500,1.0
+EBM,EBM,17,OHQ850,Periodontal treatment history,500,1.0,500,1.0
+EBM,EBM,17,OHQ860,Professionally reported bone loss,500,1.0,500,1.0
+TreeSHAP,XGBoost,1,DMDEDUC2,Education,228,0.456,500,0.32324649298597197
+TreeSHAP,XGBoost,1,INDFMIN2,Family income,6,0.012,500,0.32324649298597197
+TreeSHAP,XGBoost,1,SmokingStatus,Smoking status,140,0.28,500,0.32324649298597197
+TreeSHAP,XGBoost,1,DIQ010,Diabetes status,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,HUQ010,General health rating,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ835,Perceived gum disease,15,0.03,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ845,Teeth/gum health rating,4,0.008,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ855,Non-traumatic tooth mobility,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ680,Oral self-consciousness,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ875,Therapeutic mouthwash days in the past week,8,0.016,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ030,Time since last dental visit,96,0.192,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ850,Periodontal treatment history,3,0.006,500,0.32324649298597197
+TreeSHAP,XGBoost,1,OHQ860,Professionally reported bone loss,0,0.0,500,0.32324649298597197
+TreeSHAP,XGBoost,2,DMDEDUC2,Education,348,0.696,500,0.40230861723446887
+TreeSHAP,XGBoost,2,INDFMIN2,Family income,23,0.046,500,0.40230861723446887
+TreeSHAP,XGBoost,2,SmokingStatus,Smoking status,252,0.504,500,0.40230861723446887
+TreeSHAP,XGBoost,2,DIQ010,Diabetes status,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,HUQ010,General health rating,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ835,Perceived gum disease,58,0.116,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ845,Teeth/gum health rating,20,0.04,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ855,Non-traumatic tooth mobility,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ680,Oral self-consciousness,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ875,Therapeutic mouthwash days in the past week,26,0.052,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ030,Time since last dental visit,252,0.504,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ850,Periodontal treatment history,21,0.042,500,0.40230861723446887
+TreeSHAP,XGBoost,2,OHQ860,Professionally reported bone loss,0,0.0,500,0.40230861723446887
+TreeSHAP,XGBoost,3,DMDEDUC2,Education,409,0.818,500,0.503889378757515
+TreeSHAP,XGBoost,3,INDFMIN2,Family income,34,0.068,500,0.503889378757515
+TreeSHAP,XGBoost,3,SmokingStatus,Smoking status,391,0.782,500,0.503889378757515
+TreeSHAP,XGBoost,3,DIQ010,Diabetes status,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,HUQ010,General health rating,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ835,Perceived gum disease,113,0.226,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ845,Teeth/gum health rating,64,0.128,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ855,Non-traumatic tooth mobility,1,0.002,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ680,Oral self-consciousness,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ875,Therapeutic mouthwash days in the past week,82,0.164,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ030,Time since last dental visit,352,0.704,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ850,Periodontal treatment history,53,0.106,500,0.503889378757515
+TreeSHAP,XGBoost,3,OHQ860,Professionally reported bone loss,1,0.002,500,0.503889378757515
+TreeSHAP,XGBoost,4,DMDEDUC2,Education,447,0.894,500,0.5384180169863536
+TreeSHAP,XGBoost,4,INDFMIN2,Family income,56,0.112,500,0.5384180169863536
+TreeSHAP,XGBoost,4,SmokingStatus,Smoking status,444,0.888,500,0.5384180169863536
+TreeSHAP,XGBoost,4,DIQ010,Diabetes status,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,HUQ010,General health rating,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ835,Perceived gum disease,166,0.332,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ845,Teeth/gum health rating,182,0.364,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ855,Non-traumatic tooth mobility,2,0.004,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ680,Oral self-consciousness,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ875,Therapeutic mouthwash days in the past week,166,0.332,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ030,Time since last dental visit,419,0.838,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ850,Periodontal treatment history,115,0.23,500,0.5384180169863536
+TreeSHAP,XGBoost,4,OHQ860,Professionally reported bone loss,3,0.006,500,0.5384180169863536
+TreeSHAP,XGBoost,5,DMDEDUC2,Education,468,0.936,500,0.5910489868626141
+TreeSHAP,XGBoost,5,INDFMIN2,Family income,88,0.176,500,0.5910489868626141
+TreeSHAP,XGBoost,5,SmokingStatus,Smoking status,481,0.962,500,0.5910489868626141
+TreeSHAP,XGBoost,5,DIQ010,Diabetes status,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,HUQ010,General health rating,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ835,Perceived gum disease,240,0.48,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ845,Teeth/gum health rating,292,0.584,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ855,Non-traumatic tooth mobility,21,0.042,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ680,Oral self-consciousness,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ870,Interdental cleaning days in the past week,0,0.0,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ875,Therapeutic mouthwash days in the past week,238,0.476,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ030,Time since last dental visit,457,0.914,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ850,Periodontal treatment history,206,0.412,500,0.5910489868626141
+TreeSHAP,XGBoost,5,OHQ860,Professionally reported bone loss,9,0.018,500,0.5910489868626141
+TreeSHAP,XGBoost,6,DMDEDUC2,Education,480,0.96,500,0.6634596812672965
+TreeSHAP,XGBoost,6,INDFMIN2,Family income,120,0.24,500,0.6634596812672965
+TreeSHAP,XGBoost,6,SmokingStatus,Smoking status,496,0.992,500,0.6634596812672965
+TreeSHAP,XGBoost,6,DIQ010,Diabetes status,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,HUQ010,General health rating,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ835,Perceived gum disease,306,0.612,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ845,Teeth/gum health rating,401,0.802,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ855,Non-traumatic tooth mobility,55,0.11,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ680,Oral self-consciousness,0,0.0,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ870,Interdental cleaning days in the past week,3,0.006,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ875,Therapeutic mouthwash days in the past week,341,0.682,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ030,Time since last dental visit,480,0.96,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ850,Periodontal treatment history,288,0.576,500,0.6634596812672965
+TreeSHAP,XGBoost,6,OHQ860,Professionally reported bone loss,30,0.06,500,0.6634596812672965
+TreeSHAP,XGBoost,7,DMDEDUC2,Education,495,0.99,500,0.7272727070302221
+TreeSHAP,XGBoost,7,INDFMIN2,Family income,154,0.308,500,0.7272727070302221
+TreeSHAP,XGBoost,7,SmokingStatus,Smoking status,500,1.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,DIQ010,Diabetes status,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,HUQ010,General health rating,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ835,Perceived gum disease,374,0.748,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ845,Teeth/gum health rating,466,0.932,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ865,Tooth appearance concern in the past three months,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ855,Non-traumatic tooth mobility,131,0.262,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ620,Oral pain frequency in the past year,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ680,Oral self-consciousness,0,0.0,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ870,Interdental cleaning days in the past week,11,0.022,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ875,Therapeutic mouthwash days in the past week,412,0.824,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ030,Time since last dental visit,493,0.986,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ850,Periodontal treatment history,379,0.758,500,0.7272727070302221
+TreeSHAP,XGBoost,7,OHQ860,Professionally reported bone loss,85,0.17,500,0.7272727070302221
+TreeSHAP,XGBoost,8,DMDEDUC2,Education,496,0.992,500,0.7614812007854093
+TreeSHAP,XGBoost,8,INDFMIN2,Family income,191,0.382,500,0.7614812007854093
+TreeSHAP,XGBoost,8,SmokingStatus,Smoking status,500,1.0,500,0.7614812007854093
+TreeSHAP,XGBoost,8,DIQ010,Diabetes status,0,0.0,500,0.7614812007854093
+TreeSHAP,XGBoost,8,HUQ010,General health rating,3,0.006,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ835,Perceived gum disease,415,0.83,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ845,Teeth/gum health rating,498,0.996,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ865,Tooth appearance concern in the past three months,3,0.006,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ855,Non-traumatic tooth mobility,269,0.538,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ620,Oral pain frequency in the past year,2,0.004,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ680,Oral self-consciousness,0,0.0,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ870,Interdental cleaning days in the past week,40,0.08,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ875,Therapeutic mouthwash days in the past week,458,0.916,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ030,Time since last dental visit,497,0.994,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ850,Periodontal treatment history,445,0.89,500,0.7614812007854093
+TreeSHAP,XGBoost,8,OHQ860,Professionally reported bone loss,183,0.366,500,0.7614812007854093
+TreeSHAP,XGBoost,9,DMDEDUC2,Education,498,0.996,500,0.785625432683549
+TreeSHAP,XGBoost,9,INDFMIN2,Family income,253,0.506,500,0.785625432683549
+TreeSHAP,XGBoost,9,SmokingStatus,Smoking status,500,1.0,500,0.785625432683549
+TreeSHAP,XGBoost,9,DIQ010,Diabetes status,0,0.0,500,0.785625432683549
+TreeSHAP,XGBoost,9,HUQ010,General health rating,8,0.016,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ835,Perceived gum disease,454,0.908,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ845,Teeth/gum health rating,500,1.0,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ865,Tooth appearance concern in the past three months,27,0.054,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ855,Non-traumatic tooth mobility,357,0.714,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ620,Oral pain frequency in the past year,9,0.018,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ640,Work/school disruption due to oral problems,0,0.0,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ680,Oral self-consciousness,1,0.002,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ870,Interdental cleaning days in the past week,111,0.222,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ875,Therapeutic mouthwash days in the past week,477,0.954,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ030,Time since last dental visit,500,1.0,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ850,Periodontal treatment history,471,0.942,500,0.785625432683549
+TreeSHAP,XGBoost,9,OHQ860,Professionally reported bone loss,334,0.668,500,0.785625432683549
+TreeSHAP,XGBoost,10,DMDEDUC2,Education,500,1.0,500,0.8163834855858905
+TreeSHAP,XGBoost,10,INDFMIN2,Family income,337,0.674,500,0.8163834855858905
+TreeSHAP,XGBoost,10,SmokingStatus,Smoking status,500,1.0,500,0.8163834855858905
+TreeSHAP,XGBoost,10,DIQ010,Diabetes status,4,0.008,500,0.8163834855858905
+TreeSHAP,XGBoost,10,HUQ010,General health rating,14,0.028,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ835,Perceived gum disease,483,0.966,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ845,Teeth/gum health rating,500,1.0,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ865,Tooth appearance concern in the past three months,75,0.15,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ855,Non-traumatic tooth mobility,422,0.844,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ620,Oral pain frequency in the past year,35,0.07,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ640,Work/school disruption due to oral problems,1,0.002,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ680,Oral self-consciousness,4,0.008,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ870,Interdental cleaning days in the past week,226,0.452,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ875,Therapeutic mouthwash days in the past week,489,0.978,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ030,Time since last dental visit,500,1.0,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ850,Periodontal treatment history,488,0.976,500,0.8163834855858905
+TreeSHAP,XGBoost,10,OHQ860,Professionally reported bone loss,422,0.844,500,0.8163834855858905
+TreeSHAP,XGBoost,11,DMDEDUC2,Education,500,1.0,500,0.82670764826356
+TreeSHAP,XGBoost,11,INDFMIN2,Family income,397,0.794,500,0.82670764826356
+TreeSHAP,XGBoost,11,SmokingStatus,Smoking status,500,1.0,500,0.82670764826356
+TreeSHAP,XGBoost,11,DIQ010,Diabetes status,34,0.068,500,0.82670764826356
+TreeSHAP,XGBoost,11,HUQ010,General health rating,39,0.078,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ835,Perceived gum disease,493,0.986,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ845,Teeth/gum health rating,500,1.0,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ865,Tooth appearance concern in the past three months,153,0.306,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ855,Non-traumatic tooth mobility,457,0.914,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ620,Oral pain frequency in the past year,82,0.164,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ640,Work/school disruption due to oral problems,3,0.006,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ680,Oral self-consciousness,28,0.056,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ870,Interdental cleaning days in the past week,352,0.704,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ875,Therapeutic mouthwash days in the past week,497,0.994,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ030,Time since last dental visit,500,1.0,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ850,Periodontal treatment history,493,0.986,500,0.82670764826356
+TreeSHAP,XGBoost,11,OHQ860,Professionally reported bone loss,472,0.944,500,0.82670764826356
+TreeSHAP,XGBoost,12,DMDEDUC2,Education,500,1.0,500,0.8170737342817502
+TreeSHAP,XGBoost,12,INDFMIN2,Family income,447,0.894,500,0.8170737342817502
+TreeSHAP,XGBoost,12,SmokingStatus,Smoking status,500,1.0,500,0.8170737342817502
+TreeSHAP,XGBoost,12,DIQ010,Diabetes status,88,0.176,500,0.8170737342817502
+TreeSHAP,XGBoost,12,HUQ010,General health rating,109,0.218,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ835,Perceived gum disease,496,0.992,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ845,Teeth/gum health rating,500,1.0,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ865,Tooth appearance concern in the past three months,236,0.472,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ855,Non-traumatic tooth mobility,480,0.96,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ620,Oral pain frequency in the past year,152,0.304,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ640,Work/school disruption due to oral problems,17,0.034,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ680,Oral self-consciousness,71,0.142,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ870,Interdental cleaning days in the past week,420,0.84,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ030,Time since last dental visit,500,1.0,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ850,Periodontal treatment history,493,0.986,500,0.8170737342817502
+TreeSHAP,XGBoost,12,OHQ860,Professionally reported bone loss,491,0.982,500,0.8170737342817502
+TreeSHAP,XGBoost,13,DMDEDUC2,Education,500,1.0,500,0.812928274476123
+TreeSHAP,XGBoost,13,INDFMIN2,Family income,471,0.942,500,0.812928274476123
+TreeSHAP,XGBoost,13,SmokingStatus,Smoking status,500,1.0,500,0.812928274476123
+TreeSHAP,XGBoost,13,DIQ010,Diabetes status,142,0.284,500,0.812928274476123
+TreeSHAP,XGBoost,13,HUQ010,General health rating,196,0.392,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ835,Perceived gum disease,496,0.992,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ845,Teeth/gum health rating,500,1.0,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ865,Tooth appearance concern in the past three months,303,0.606,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ855,Non-traumatic tooth mobility,489,0.978,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ620,Oral pain frequency in the past year,250,0.5,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ640,Work/school disruption due to oral problems,48,0.096,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ680,Oral self-consciousness,141,0.282,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ870,Interdental cleaning days in the past week,470,0.94,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ030,Time since last dental visit,500,1.0,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ850,Periodontal treatment history,497,0.994,500,0.812928274476123
+TreeSHAP,XGBoost,13,OHQ860,Professionally reported bone loss,497,0.994,500,0.812928274476123
+TreeSHAP,XGBoost,14,DMDEDUC2,Education,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,INDFMIN2,Family income,485,0.97,500,0.8239873315257967
+TreeSHAP,XGBoost,14,SmokingStatus,Smoking status,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,DIQ010,Diabetes status,201,0.402,500,0.8239873315257967
+TreeSHAP,XGBoost,14,HUQ010,General health rating,310,0.62,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ835,Perceived gum disease,498,0.996,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ845,Teeth/gum health rating,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ865,Tooth appearance concern in the past three months,362,0.724,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ855,Non-traumatic tooth mobility,495,0.99,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ620,Oral pain frequency in the past year,337,0.674,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ640,Work/school disruption due to oral problems,113,0.226,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ680,Oral self-consciousness,212,0.424,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ870,Interdental cleaning days in the past week,488,0.976,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ030,Time since last dental visit,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ850,Periodontal treatment history,500,1.0,500,0.8239873315257967
+TreeSHAP,XGBoost,14,OHQ860,Professionally reported bone loss,499,0.998,500,0.8239873315257967
+TreeSHAP,XGBoost,15,DMDEDUC2,Education,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,INDFMIN2,Family income,497,0.994,500,0.8536383354945184
+TreeSHAP,XGBoost,15,SmokingStatus,Smoking status,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,DIQ010,Diabetes status,295,0.59,500,0.8536383354945184
+TreeSHAP,XGBoost,15,HUQ010,General health rating,395,0.79,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ835,Perceived gum disease,498,0.996,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ845,Teeth/gum health rating,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ865,Tooth appearance concern in the past three months,404,0.808,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ855,Non-traumatic tooth mobility,498,0.996,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ620,Oral pain frequency in the past year,420,0.84,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ640,Work/school disruption due to oral problems,208,0.416,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ680,Oral self-consciousness,290,0.58,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ870,Interdental cleaning days in the past week,496,0.992,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ030,Time since last dental visit,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ850,Periodontal treatment history,500,1.0,500,0.8536383354945184
+TreeSHAP,XGBoost,15,OHQ860,Professionally reported bone loss,499,0.998,500,0.8536383354945184
+TreeSHAP,XGBoost,16,DMDEDUC2,Education,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,INDFMIN2,Family income,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,SmokingStatus,Smoking status,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,DIQ010,Diabetes status,400,0.8,500,0.9071950960745022
+TreeSHAP,XGBoost,16,HUQ010,General health rating,458,0.916,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ835,Perceived gum disease,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ845,Teeth/gum health rating,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ865,Tooth appearance concern in the past three months,439,0.878,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ855,Non-traumatic tooth mobility,499,0.998,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ620,Oral pain frequency in the past year,474,0.948,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ640,Work/school disruption due to oral problems,345,0.69,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ680,Oral self-consciousness,386,0.772,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ870,Interdental cleaning days in the past week,499,0.998,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ030,Time since last dental visit,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ850,Periodontal treatment history,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,16,OHQ860,Professionally reported bone loss,500,1.0,500,0.9071950960745022
+TreeSHAP,XGBoost,17,DMDEDUC2,Education,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,INDFMIN2,Family income,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,SmokingStatus,Smoking status,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,DIQ010,Diabetes status,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,HUQ010,General health rating,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ835,Perceived gum disease,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ845,Teeth/gum health rating,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ865,Tooth appearance concern in the past three months,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ855,Non-traumatic tooth mobility,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ620,Oral pain frequency in the past year,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ640,Work/school disruption due to oral problems,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ680,Oral self-consciousness,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ870,Interdental cleaning days in the past week,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ875,Therapeutic mouthwash days in the past week,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ030,Time since last dental visit,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ850,Periodontal treatment history,500,1.0,500,1.0
+TreeSHAP,XGBoost,17,OHQ860,Professionally reported bone loss,500,1.0,500,1.0

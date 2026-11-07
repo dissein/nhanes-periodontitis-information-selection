@@ -1,0 +1,15 @@
+Original research outputs in this release are licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+Attribution
+Cheng Zhou. NHANES periodontitis information selection. Version 1.0.0 (2026).
+
+License terms
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This grant covers original derived numerical results, predictions, fitted
+model artifacts and original figures, to the extent that rights subsist.
+Author-written software is distributed under the separate MIT LICENSE.
+Raw NHANES files and official CDC documentation retain their original terms
+and source attribution. See THIRD_PARTY_NOTICES.md and provenance/data_sources.json.

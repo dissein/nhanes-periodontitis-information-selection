@@ -1,0 +1,6 @@
+{
+  "python": "3.13.5",
+  "validated_platform": "Windows x86_64",
+  "direct_requirements": "requirements.txt",
+  "resolved_requirements": "requirements-lock.txt"
+}

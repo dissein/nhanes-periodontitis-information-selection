@@ -1,0 +1,40 @@
+{
+  "EBM": [
+    "DMDEDUC2",
+    "OHQ030",
+    "SmokingStatus",
+    "INDFMIN2",
+    "OHQ845",
+    "OHQ850",
+    "OHQ875",
+    "OHQ860",
+    "OHQ835",
+    "OHQ855",
+    "OHQ620",
+    "DIQ010",
+    "OHQ640",
+    "HUQ010",
+    "OHQ680",
+    "OHQ865",
+    "OHQ870"
+  ],
+  "XGBoost": [
+    "DMDEDUC2",
+    "SmokingStatus",
+    "OHQ030",
+    "OHQ835",
+    "OHQ850",
+    "OHQ845",
+    "OHQ875",
+    "OHQ855",
+    "OHQ860",
+    "INDFMIN2",
+    "OHQ870",
+    "OHQ640",
+    "OHQ865",
+    "DIQ010",
+    "OHQ620",
+    "HUQ010",
+    "OHQ680"
+  ]
+}

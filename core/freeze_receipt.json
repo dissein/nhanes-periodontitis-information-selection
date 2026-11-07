@@ -1,0 +1,8 @@
+{
+  "config_sha256": "d7ea4b08b6cff35dab8a0b2e71ea0434a7d6f00f33323011202591f3cf59a6b6",
+  "dictionary_sha256": "7d1d2a6790451862ff5a83515e9c17c3e6cf4519809728f7a00f43b990628cce",
+  "created_UTC": "2026-10-22T22:49:44.573052+00:00",
+  "before_model_fit": true,
+  "publication_metadata_sanitized": true,
+  "original_config_sha256": "26afbb03e48e36d40baf8963ddeae2f3c80383af0c518e8edc78e608bd034b80"
+}

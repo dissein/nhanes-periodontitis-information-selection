@@ -1,0 +1,30 @@
+{
+  "bundle_id": "768c7471e4bac1da7e731adc69060bc56e35f3a8702299dbc4567ef0df13be93",
+  "description": "CPU-only developer-period exhaustive subset search; source functions copied verbatim",
+  "files": {
+    "scripts/bootstrap.py": "8348db430668c2f31078430219845d2d5c8277e90537198f784e764279ea049e",
+    "scripts/engine.py": "221d78a2ae6c47ed7fbcc265b18c2ab65ef772c4db7430c9ea1fb897ec6485a6",
+    "scripts/export_results.py": "90ebd4a4fed06b20d3b29d082f169bd36deb9c88f2044ec1396141480dfc35f1",
+    "scripts/finalize.py": "2e830449557afc7929756609afc2c5290b808b5641a3da45bc72403a93188db9",
+    "scripts/merge.py": "2f359ad8f4b635f56039963999b3232083dec73bac2250b31e0cedb88e24bf61",
+    "scripts/plan.py": "267085c142feeef16bdb7915afb50d28f7d197e656d87e06c40fc64544314077",
+    "scripts/smoke.py": "5917194b708c020994c1f007a4aee71ef286685893b63db93ecd7b87c3946067",
+    "scripts/worker.py": "ee0ed05bae7253339a8b52fe6f0412a72272f6f56a1a57d9b0f470da28db0aca",
+    "original_code/formal_common.py": "cd2bb06bb44afae61166682d768e0b419b4db1eac3b4877afd5fcce5ef5436e4",
+    "frozen/analysis_config.json": "d7ea4b08b6cff35dab8a0b2e71ea0434a7d6f00f33323011202591f3cf59a6b6",
+    "frozen/attribution_outer_predictions.csv.gz": "be6e7550b9ddc8a823312e5e69657e9f4855657119c113c740b150104fbac1be",
+    "frozen/attribution_references.csv": "1754db0847f1c77daf25038808efcb4772cc621162ed8f6d78f64f60c88b3b69",
+    "frozen/benchmark_tasks.json": "00996c6329b3e6405e92819529b8392d3d071def0652084ccf5d3299bcb3cd03",
+    "frozen/candidate_dictionary.csv": "7d1d2a6790451862ff5a83515e9c17c3e6cf4519809728f7a00f43b990628cce",
+    "frozen/development_data.csv.gz": "bb33797e5f630065733899ce1a00c04f9dfd4e7f6d9eba8ba24eb8999ecfad3a",
+    "frozen/encoded_widths.json": "f3990feea97b7815d3935dff498e19bfe21fd0846afdd048e0cf9e2e37db316e",
+    "frozen/inner_folds.json": "4c30fedc0598c44df411d73fd06fd9403cc38006802c25c84db01a54e314167e",
+    "frozen/numeric_reference.json": "3370ab65e7afe60e0a75f1e7f7ae82875f5f1d2b3de3bf43e9aaeb8b9f3ab349",
+    "frozen/outer_folds.json": "5e286b54735b00bec7c32cfb09166237201d77f53d13098cfa270df077799deb",
+    "frozen/reused_results.jsonl.gz": "bb4a61665b37be9711d59a8da7c1e92bad0775e7b1e931bafc6887c76660a7fb",
+    "frozen/reused_task_ids.json": "27d3a08bb3188e12f950348c91620274cc9410fe35551242677ae87e34011114",
+    "frozen/runtime_versions.json": "17fde5c2887ad8189050f289c6b693ac79e10c5e96c3c328356cefb8e8404113",
+    "requirements.lock.txt": "5f0191d540426fba8b1fdf629c83a19f364c531b1dd6cc9d7f92d349dc9bac8b"
+  },
+  "publication_metadata_sanitized": true
+}

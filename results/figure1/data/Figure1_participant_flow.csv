@@ -1,0 +1,11 @@
+cycle,stage,included_n,excluded_at_step
+G,All DEMO participants,9756,0
+G,Age >=30 years,4566,5190
+G,Positive MEC weight,4365,201
+G,Complete periodontal examination (OHDPDSTS=1),3685,680
+G,Classifiable CDC/AAP outcome; included,3323,362
+H,All DEMO participants,10175,0
+H,Age >=30 years,4813,5362
+H,Positive MEC weight,4669,144
+H,Complete periodontal examination (OHDPDSTS=1),3982,687
+H,Classifiable CDC/AAP outcome; included,3617,365

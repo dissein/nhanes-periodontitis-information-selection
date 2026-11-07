@@ -1,0 +1,220 @@
+cycle,variable,label,level,n,weighted_percent,weighted_mean,weighted_SD,denominator_n,denominator,level_label
+G,RIDAGEYR,Age,mean_SD,3323,,50.91748315466249,13.501187359276825,3323,"all included participants; population weighted SD, not SE",mean_SD
+G,RIAGENDR,RIAGENDR,CAT_2,1680,51.30493514679038,,,3323,all included participants; missing response states retained,Female
+G,RIAGENDR,RIAGENDR,CAT_1,1643,48.695064853209615,,,3323,all included participants; missing response states retained,Male
+G,CDC_AAP_class,CDC_AAP_class,No Periodontitis,1530,55.25354991711416,,,3323,all included participants; missing response states retained,No Periodontitis
+G,CDC_AAP_class,CDC_AAP_class,Moderate,1250,31.847581932303683,,,3323,all included participants; missing response states retained,Moderate
+G,CDC_AAP_class,CDC_AAP_class,Severe,441,9.27763824115137,,,3323,all included participants; missing response states retained,Severe
+G,CDC_AAP_class,CDC_AAP_class,Mild,102,3.621229909430778,,,3323,all included participants; missing response states retained,Mild
+G,CDC_AAP_mod_severe,CDC_AAP_mod_severe,0,1632,58.874779826544945,,,3323,all included participants; missing response states retained,No/mild periodontitis
+G,CDC_AAP_mod_severe,CDC_AAP_mod_severe,1,1691,41.12522017345505,,,3323,all included participants; missing response states retained,Moderate/severe periodontitis
+G,DMDEDUC2,Education,CAT_4,915,29.448062608322108,,,3323,all included participants; missing response states retained,Some college or AA degree
+G,DMDEDUC2,Education,CAT_3,699,20.27486943217617,,,3323,all included participants; missing response states retained,High school graduate/GED or equivalent
+G,DMDEDUC2,Education,CAT_5,953,34.87045823067586,,,3323,all included participants; missing response states retained,College graduate or above
+G,DMDEDUC2,Education,CAT_2,436,9.86151681070469,,,3323,all included participants; missing response states retained,9-11th grade (Includes 12th grade with no diploma)
+G,DMDEDUC2,Education,CAT_1,318,5.527993918382169,,,3323,all included participants; missing response states retained,Less than 9th grade
+G,DMDEDUC2,Education,UNKNOWN,2,0.01709899973899913,,,3323,all included participants; missing response states retained,UNKNOWN
+G,INDFMIN2,Family income,CAT_8,219,7.402971716550677,,,3323,all included participants; missing response states retained,"$45,000 to $54,999"
+G,INDFMIN2,Family income,CAT_5,237,5.288209261899987,,,3323,all included participants; missing response states retained,"$20,000 to $24,999"
+G,INDFMIN2,Family income,CAT_10,171,6.826463313433573,,,3323,all included participants; missing response states retained,"$65,000 to $74,999"
+G,INDFMIN2,Family income,CAT_15,557,23.533128157336517,,,3323,all included participants; missing response states retained,"$100,000 and Over"
+G,INDFMIN2,Family income,REFUSED,94,1.7157913624875718,,,3323,all included participants; missing response states retained,REFUSED
+G,INDFMIN2,Family income,CAT_1,81,1.6646032166950309,,,3323,all included participants; missing response states retained,"$ 0 to $ 4,999"
+G,INDFMIN2,Family income,CAT_6,354,9.279569583013055,,,3323,all included participants; missing response states retained,"$25,000 to $34,999"
+G,INDFMIN2,Family income,CAT_14,294,11.545801436515141,,,3323,all included participants; missing response states retained,"$75,000 to $99,999"
+G,INDFMIN2,Family income,CAT_7,339,10.54418038914755,,,3323,all included participants; missing response states retained,"$35,000 to $44,999"
+G,INDFMIN2,Family income,CAT_13,34,0.8549937743401568,,,3323,all included participants; missing response states retained,"Under $20,000"
+G,INDFMIN2,Family income,CAT_4,228,4.419215154395484,,,3323,all included participants; missing response states retained,"$15,000 to $19,999"
+G,INDFMIN2,Family income,CAT_9,169,5.7125199261571264,,,3323,all included participants; missing response states retained,"$55,000 to $64,999"
+G,INDFMIN2,Family income,CAT_12,93,2.3161944338543585,,,3323,all included participants; missing response states retained,"$20,000 and Over"
+G,INDFMIN2,Family income,CAT_3,255,5.141292280838177,,,3323,all included participants; missing response states retained,"$10,000 to $14,999"
+G,INDFMIN2,Family income,CAT_2,153,2.7898031686779285,,,3323,all included participants; missing response states retained,"$ 5,000 to $ 9,999"
+G,INDFMIN2,Family income,UNKNOWN,38,0.7767407304505317,,,3323,all included participants; missing response states retained,UNKNOWN
+G,INDFMIN2,Family income,SYSTEM_MISSING,7,0.1885220942071297,,,3323,all included participants; missing response states retained,SYSTEM_MISSING
+G,SmokingStatus,Smoking status,Never,1898,55.610958718429245,,,3323,all included participants; missing response states retained,Never
+G,SmokingStatus,Smoking status,Current,610,17.887057841983925,,,3323,all included participants; missing response states retained,Current
+G,SmokingStatus,Smoking status,Former,812,26.45897352813824,,,3323,all included participants; missing response states retained,Former
+G,SmokingStatus,Smoking status,UNKNOWN,2,0.030523845747841182,,,3323,all included participants; missing response states retained,UNKNOWN
+G,SmokingStatus,Smoking status,REFUSED,1,0.012486065700733403,,,3323,all included participants; missing response states retained,REFUSED
+G,DIQ010,Diabetes status,CAT_2,2812,88.09012111471277,,,3323,all included participants; missing response states retained,No
+G,DIQ010,Diabetes status,CAT_1,420,9.381397081825956,,,3323,all included participants; missing response states retained,Yes
+G,DIQ010,Diabetes status,CAT_3,88,2.4984599383766715,,,3323,all included participants; missing response states retained,Borderline
+G,DIQ010,Diabetes status,UNKNOWN,3,0.030021865084593882,,,3323,all included participants; missing response states retained,UNKNOWN
+G,HUQ010,General health rating,CAT_1,453,16.495726709953125,,,3323,all included participants; missing response states retained,"Excellent,"
+G,HUQ010,General health rating,CAT_2,879,31.937329576970747,,,3323,all included participants; missing response states retained,"Very good,"
+G,HUQ010,General health rating,CAT_5,127,2.4155650979174625,,,3323,all included participants; missing response states retained,Poor?
+G,HUQ010,General health rating,CAT_3,1269,35.69486190089146,,,3323,all included participants; missing response states retained,"Good,"
+G,HUQ010,General health rating,CAT_4,594,13.418853350831803,,,3323,all included participants; missing response states retained,"Fair, or"
+G,HUQ010,General health rating,UNKNOWN,1,0.03766336343540971,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ835,Perceived gum disease,CAT_2,2598,80.11559219929576,,,3323,all included participants; missing response states retained,No
+G,OHQ835,Perceived gum disease,CAT_1,670,18.63113714987843,,,3323,all included participants; missing response states retained,Yes
+G,OHQ835,Perceived gum disease,UNKNOWN,55,1.2532706508257923,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ845,Teeth/gum health rating,CAT_1,311,12.710525633400602,,,3323,all included participants; missing response states retained,Excellent
+G,OHQ845,Teeth/gum health rating,CAT_3,1257,37.673458900347626,,,3323,all included participants; missing response states retained,Good
+G,OHQ845,Teeth/gum health rating,CAT_2,618,21.829757315806784,,,3323,all included participants; missing response states retained,Very good
+G,OHQ845,Teeth/gum health rating,CAT_4,738,18.54784776644213,,,3323,all included participants; missing response states retained,Fair
+G,OHQ845,Teeth/gum health rating,CAT_5,396,9.181317595092043,,,3323,all included participants; missing response states retained,Poor
+G,OHQ845,Teeth/gum health rating,UNKNOWN,3,0.05709278891081548,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ865,Tooth appearance concern in the past three months,CAT_2,2727,86.17604355514084,,,3323,all included participants; missing response states retained,No
+G,OHQ865,Tooth appearance concern in the past three months,CAT_1,594,13.791550900690886,,,3323,all included participants; missing response states retained,Yes
+G,OHQ865,Tooth appearance concern in the past three months,UNKNOWN,2,0.03240554416827414,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ855,Non-traumatic tooth mobility,CAT_2,2767,87.22755147956761,,,3323,all included participants; missing response states retained,No
+G,OHQ855,Non-traumatic tooth mobility,CAT_1,554,12.677759784449272,,,3323,all included participants; missing response states retained,Yes
+G,OHQ855,Non-traumatic tooth mobility,UNKNOWN,2,0.09468873598311035,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ620,Oral pain frequency in the past year,CAT_5,1961,60.40158011440586,,,3323,all included participants; missing response states retained,Never?
+G,OHQ620,Oral pain frequency in the past year,CAT_3,500,12.908723707828166,,,3323,all included participants; missing response states retained,Occasionally
+G,OHQ620,Oral pain frequency in the past year,CAT_4,617,20.599656721991508,,,3323,all included participants; missing response states retained,"Hardly ever, or"
+G,OHQ620,Oral pain frequency in the past year,CAT_1,105,2.365174981335858,,,3323,all included participants; missing response states retained,Very often
+G,OHQ620,Oral pain frequency in the past year,CAT_2,139,3.718158959882203,,,3323,all included participants; missing response states retained,Fairly often
+G,OHQ620,Oral pain frequency in the past year,UNKNOWN,1,0.006705514556411479,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ640,Work/school disruption due to oral problems,CAT_5,2985,91.97073814732569,,,3323,all included participants; missing response states retained,Never?
+G,OHQ640,Work/school disruption due to oral problems,CAT_4,174,4.434714699657241,,,3323,all included participants; missing response states retained,"Hardly ever, or"
+G,OHQ640,Work/school disruption due to oral problems,CAT_2,45,1.0774391944827868,,,3323,all included participants; missing response states retained,Fairly often
+G,OHQ640,Work/school disruption due to oral problems,CAT_3,84,1.923920031848755,,,3323,all included participants; missing response states retained,Occasionally
+G,OHQ640,Work/school disruption due to oral problems,CAT_1,34,0.5860599911878478,,,3323,all included participants; missing response states retained,Very often
+G,OHQ640,Work/school disruption due to oral problems,UNKNOWN,1,0.007127935497677023,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ680,Oral self-consciousness,CAT_5,2664,81.69420989918102,,,3323,all included participants; missing response states retained,Never?
+G,OHQ680,Oral self-consciousness,CAT_3,213,6.112480601232412,,,3323,all included participants; missing response states retained,Occasionally
+G,OHQ680,Oral self-consciousness,CAT_4,186,5.874160251783344,,,3323,all included participants; missing response states retained,"Hardly ever, or"
+G,OHQ680,Oral self-consciousness,CAT_2,103,3.0099984421687274,,,3323,all included participants; missing response states retained,Fairly often
+G,OHQ680,Oral self-consciousness,CAT_1,156,3.280387228157886,,,3323,all included participants; missing response states retained,Very often
+G,OHQ680,Oral self-consciousness,UNKNOWN,1,0.028763577476605594,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ870,Interdental cleaning days in the past week,7.0,1111,32.92866372623121,,,3323,all included participants; missing response states retained,7.0 days
+G,OHQ870,Interdental cleaning days in the past week,0.0,1097,28.715610912658367,,,3323,all included participants; missing response states retained,0.0 days
+G,OHQ870,Interdental cleaning days in the past week,1.0,232,8.744800025836513,,,3323,all included participants; missing response states retained,1.0 days
+G,OHQ870,Interdental cleaning days in the past week,4.0,164,5.966181791450786,,,3323,all included participants; missing response states retained,4.0 days
+G,OHQ870,Interdental cleaning days in the past week,3.0,269,8.433755594554853,,,3323,all included participants; missing response states retained,3.0 days
+G,OHQ870,Interdental cleaning days in the past week,2.0,282,8.179856617457517,,,3323,all included participants; missing response states retained,2.0 days
+G,OHQ870,Interdental cleaning days in the past week,5.0,118,4.619744228240873,,,3323,all included participants; missing response states retained,5.0 days
+G,OHQ870,Interdental cleaning days in the past week,6.0,49,2.3838326040559834,,,3323,all included participants; missing response states retained,6.0 days
+G,OHQ870,Interdental cleaning days in the past week,NUMERIC_MISSING,1,0.02755449951388861,,,3323,all included participants; missing response states retained,NUMERIC_MISSING
+G,OHQ875,Therapeutic mouthwash days in the past week,0.0,1358,44.591695922712134,,,3323,all included participants; missing response states retained,0.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,7.0,1186,29.750197446991006,,,3323,all included participants; missing response states retained,7.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,2.0,184,6.3707647118728925,,,3323,all included participants; missing response states retained,2.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,3.0,214,7.145375203912437,,,3323,all included participants; missing response states retained,3.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,4.0,131,3.7563118919234286,,,3323,all included participants; missing response states retained,4.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,NUMERIC_MISSING,1,0.020635360994450774,,,3323,all included participants; missing response states retained,NUMERIC_MISSING
+G,OHQ875,Therapeutic mouthwash days in the past week,1.0,141,4.282076730749964,,,3323,all included participants; missing response states retained,1.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,5.0,87,3.383319151748447,,,3323,all included participants; missing response states retained,5.0 days
+G,OHQ875,Therapeutic mouthwash days in the past week,6.0,21,0.6996235790952356,,,3323,all included participants; missing response states retained,6.0 days
+G,OHQ030,Time since last dental visit,CAT_1,1434,50.25894464936711,,,3323,all included participants; missing response states retained,6 months or less
+G,OHQ030,Time since last dental visit,CAT_2,484,13.831232340728098,,,3323,all included participants; missing response states retained,"More than 6 months, but not more than 1 year ago"
+G,OHQ030,Time since last dental visit,CAT_3,446,12.066105180534095,,,3323,all included participants; missing response states retained,"More than 1 year, but not more than 2 years ago"
+G,OHQ030,Time since last dental visit,CAT_5,238,6.452921674134096,,,3323,all included participants; missing response states retained,"More than 3 years, but not more than 5 years ago"
+G,OHQ030,Time since last dental visit,CAT_6,444,10.554559277484488,,,3323,all included participants; missing response states retained,More than 5 years ago
+G,OHQ030,Time since last dental visit,CAT_7,48,0.932174995751275,,,3323,all included participants; missing response states retained,Never have been
+G,OHQ030,Time since last dental visit,CAT_4,225,5.7525938796641185,,,3323,all included participants; missing response states retained,"More than 2 years, but not more than 3 years ago"
+G,OHQ030,Time since last dental visit,UNKNOWN,4,0.15146800233671784,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ850,Periodontal treatment history,CAT_2,2471,75.31486361687412,,,3323,all included participants; missing response states retained,No
+G,OHQ850,Periodontal treatment history,CAT_1,838,24.330949167324803,,,3323,all included participants; missing response states retained,Yes
+G,OHQ850,Periodontal treatment history,UNKNOWN,14,0.3541872158010866,,,3323,all included participants; missing response states retained,UNKNOWN
+G,OHQ860,Professionally reported bone loss,CAT_2,2873,86.21476304323356,,,3323,all included participants; missing response states retained,No
+G,OHQ860,Professionally reported bone loss,CAT_1,433,13.469508368526139,,,3323,all included participants; missing response states retained,Yes
+G,OHQ860,Professionally reported bone loss,UNKNOWN,17,0.31572858824028655,,,3323,all included participants; missing response states retained,UNKNOWN
+H,RIDAGEYR,Age,mean_SD,3617,,51.15330951592585,13.692472197773588,3617,"all included participants; population weighted SD, not SE",mean_SD
+H,RIAGENDR,RIAGENDR,CAT_1,1752,48.660378751953395,,,3617,all included participants; missing response states retained,Male
+H,RIAGENDR,RIAGENDR,CAT_2,1865,51.339621248046605,,,3617,all included participants; missing response states retained,Female
+H,CDC_AAP_class,CDC_AAP_class,Severe,316,5.827903600258959,,,3617,all included participants; missing response states retained,Severe
+H,CDC_AAP_class,CDC_AAP_class,No Periodontitis,2029,64.7213987558521,,,3617,all included participants; missing response states retained,No Periodontitis
+H,CDC_AAP_class,CDC_AAP_class,Moderate,1231,28.45583456032999,,,3617,all included participants; missing response states retained,Moderate
+H,CDC_AAP_class,CDC_AAP_class,Mild,41,0.9948630835589393,,,3617,all included participants; missing response states retained,Mild
+H,CDC_AAP_mod_severe,CDC_AAP_mod_severe,1,1547,34.283738160588946,,,3617,all included participants; missing response states retained,Moderate/severe periodontitis
+H,CDC_AAP_mod_severe,CDC_AAP_mod_severe,0,2070,65.71626183941103,,,3617,all included participants; missing response states retained,No/mild periodontitis
+H,DMDEDUC2,Education,CAT_3,784,20.555772346615967,,,3617,all included participants; missing response states retained,High school graduate/GED or equivalent
+H,DMDEDUC2,Education,CAT_4,1088,31.665223040068636,,,3617,all included participants; missing response states retained,Some college or AA degree
+H,DMDEDUC2,Education,CAT_5,1029,34.38429270387536,,,3617,all included participants; missing response states retained,College graduate or above
+H,DMDEDUC2,Education,CAT_1,281,4.353391521923793,,,3617,all included participants; missing response states retained,Less than 9th grade
+H,DMDEDUC2,Education,CAT_2,433,9.002478856216236,,,3617,all included participants; missing response states retained,9-11th grade (Includes 12th grade with no diploma)
+H,DMDEDUC2,Education,UNKNOWN,2,0.038841531300006525,,,3617,all included participants; missing response states retained,UNKNOWN
+H,INDFMIN2,Family income,CAT_7,325,8.707155582437641,,,3617,all included participants; missing response states retained,"$35,000 to $44,999"
+H,INDFMIN2,Family income,CAT_10,170,5.227798020130853,,,3617,all included participants; missing response states retained,"$65,000 to $74,999"
+H,INDFMIN2,Family income,CAT_15,736,27.429855155824413,,,3617,all included participants; missing response states retained,"$100,000 and Over"
+H,INDFMIN2,Family income,CAT_9,215,6.578873744116661,,,3617,all included participants; missing response states retained,"$55,000 to $64,999"
+H,INDFMIN2,Family income,CAT_4,206,4.076489261744081,,,3617,all included participants; missing response states retained,"$15,000 to $19,999"
+H,INDFMIN2,Family income,CAT_8,287,8.242424327767711,,,3617,all included participants; missing response states retained,"$45,000 to $54,999"
+H,INDFMIN2,Family income,CAT_2,142,2.568169474451372,,,3617,all included participants; missing response states retained,"$ 5,000 to $ 9,999"
+H,INDFMIN2,Family income,CAT_12,87,2.0510556722215316,,,3617,all included participants; missing response states retained,"$20,000 and Over"
+H,INDFMIN2,Family income,CAT_5,275,5.863759398573591,,,3617,all included participants; missing response states retained,"$20,000 to $24,999"
+H,INDFMIN2,Family income,CAT_14,316,10.796808632388693,,,3617,all included participants; missing response states retained,"$75,000 to $99,999"
+H,INDFMIN2,Family income,CAT_6,357,8.171145765505058,,,3617,all included participants; missing response states retained,"$25,000 to $34,999"
+H,INDFMIN2,Family income,CAT_13,40,0.7888111178292476,,,3617,all included participants; missing response states retained,"Under $20,000"
+H,INDFMIN2,Family income,CAT_3,215,3.964876140976374,,,3617,all included participants; missing response states retained,"$10,000 to $14,999"
+H,INDFMIN2,Family income,CAT_1,96,2.044164719995907,,,3617,all included participants; missing response states retained,"$ 0 to $ 4,999"
+H,INDFMIN2,Family income,REFUSED,98,2.3592013867536155,,,3617,all included participants; missing response states retained,REFUSED
+H,INDFMIN2,Family income,SYSTEM_MISSING,33,0.8091357387995437,,,3617,all included participants; missing response states retained,SYSTEM_MISSING
+H,INDFMIN2,Family income,UNKNOWN,19,0.32027586048369794,,,3617,all included participants; missing response states retained,UNKNOWN
+H,SmokingStatus,Smoking status,Current,666,17.188425279522402,,,3617,all included participants; missing response states retained,Current
+H,SmokingStatus,Smoking status,Former,905,26.038091868979386,,,3617,all included participants; missing response states retained,Former
+H,SmokingStatus,Smoking status,Never,2044,56.743210204951886,,,3617,all included participants; missing response states retained,Never
+H,SmokingStatus,Smoking status,UNKNOWN,2,0.03027264654631513,,,3617,all included participants; missing response states retained,UNKNOWN
+H,DIQ010,Diabetes status,CAT_1,474,10.790868365270654,,,3617,all included participants; missing response states retained,Yes
+H,DIQ010,Diabetes status,CAT_2,3023,86.23246846904468,,,3617,all included participants; missing response states retained,No
+H,DIQ010,Diabetes status,CAT_3,119,2.956637012392773,,,3617,all included participants; missing response states retained,Borderline
+H,DIQ010,Diabetes status,UNKNOWN,1,0.02002615329188513,,,3617,all included participants; missing response states retained,UNKNOWN
+H,HUQ010,General health rating,CAT_4,683,14.806032454308452,,,3617,all included participants; missing response states retained,"Fair, or"
+H,HUQ010,General health rating,CAT_3,1350,35.43684278905357,,,3617,all included participants; missing response states retained,"Good,"
+H,HUQ010,General health rating,CAT_5,134,2.933207400183833,,,3617,all included participants; missing response states retained,Poor?
+H,HUQ010,General health rating,CAT_1,464,14.660002624684676,,,3617,all included participants; missing response states retained,"Excellent,"
+H,HUQ010,General health rating,CAT_2,985,32.1517330813742,,,3617,all included participants; missing response states retained,"Very good,"
+H,HUQ010,General health rating,UNKNOWN,1,0.012181650395252552,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ835,Perceived gum disease,CAT_2,2887,81.51203059163126,,,3617,all included participants; missing response states retained,No
+H,OHQ835,Perceived gum disease,CAT_1,676,17.271378979997888,,,3617,all included participants; missing response states retained,Yes
+H,OHQ835,Perceived gum disease,UNKNOWN,54,1.2165904283708426,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ845,Teeth/gum health rating,CAT_4,844,19.027966120089857,,,3617,all included participants; missing response states retained,Fair
+H,OHQ845,Teeth/gum health rating,CAT_3,1229,33.87881747498526,,,3617,all included participants; missing response states retained,Good
+H,OHQ845,Teeth/gum health rating,CAT_2,803,26.043287312109655,,,3617,all included participants; missing response states retained,Very good
+H,OHQ845,Teeth/gum health rating,CAT_1,371,12.570805903778659,,,3617,all included participants; missing response states retained,Excellent
+H,OHQ845,Teeth/gum health rating,CAT_5,368,8.439206832251479,,,3617,all included participants; missing response states retained,Poor
+H,OHQ845,Teeth/gum health rating,UNKNOWN,2,0.03991635678508649,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ865,Tooth appearance concern in the past three months,CAT_2,2988,86.56135826649705,,,3617,all included participants; missing response states retained,No
+H,OHQ865,Tooth appearance concern in the past three months,CAT_1,625,13.356431999788205,,,3617,all included participants; missing response states retained,Yes
+H,OHQ865,Tooth appearance concern in the past three months,UNKNOWN,4,0.08220973371473275,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ855,Non-traumatic tooth mobility,CAT_2,3055,87.73269229850371,,,3617,all included participants; missing response states retained,No
+H,OHQ855,Non-traumatic tooth mobility,CAT_1,560,12.236524595923793,,,3617,all included participants; missing response states retained,Yes
+H,OHQ855,Non-traumatic tooth mobility,UNKNOWN,2,0.030783105572487573,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ620,Oral pain frequency in the past year,CAT_5,2087,57.66465655477414,,,3617,all included participants; missing response states retained,Never?
+H,OHQ620,Oral pain frequency in the past year,CAT_4,723,21.666799267457456,,,3617,all included participants; missing response states retained,"Hardly ever, or"
+H,OHQ620,Oral pain frequency in the past year,CAT_3,537,13.866594890379403,,,3617,all included participants; missing response states retained,Occasionally
+H,OHQ620,Oral pain frequency in the past year,CAT_2,148,3.78351818011331,,,3617,all included participants; missing response states retained,Fairly often
+H,OHQ620,Oral pain frequency in the past year,CAT_1,122,3.018431107275672,,,3617,all included participants; missing response states retained,Very often
+H,OHQ640,Work/school disruption due to oral problems,CAT_5,3271,91.8130841754659,,,3617,all included participants; missing response states retained,Never?
+H,OHQ640,Work/school disruption due to oral problems,CAT_4,178,4.266402671052701,,,3617,all included participants; missing response states retained,"Hardly ever, or"
+H,OHQ640,Work/school disruption due to oral problems,CAT_3,95,1.9791645676468252,,,3617,all included participants; missing response states retained,Occasionally
+H,OHQ640,Work/school disruption due to oral problems,CAT_2,50,1.5627023413646235,,,3617,all included participants; missing response states retained,Fairly often
+H,OHQ640,Work/school disruption due to oral problems,CAT_1,23,0.37864624446991796,,,3617,all included participants; missing response states retained,Very often
+H,OHQ680,Oral self-consciousness,CAT_5,2900,80.84967375620685,,,3617,all included participants; missing response states retained,Never?
+H,OHQ680,Oral self-consciousness,CAT_3,189,4.955088388193755,,,3617,all included participants; missing response states retained,Occasionally
+H,OHQ680,Oral self-consciousness,CAT_4,240,6.878302803223975,,,3617,all included participants; missing response states retained,"Hardly ever, or"
+H,OHQ680,Oral self-consciousness,CAT_1,167,3.779599020778177,,,3617,all included participants; missing response states retained,Very often
+H,OHQ680,Oral self-consciousness,CAT_2,121,3.53733603159724,,,3617,all included participants; missing response states retained,Fairly often
+H,OHQ870,Interdental cleaning days in the past week,4.0,200,5.863885081761618,,,3617,all included participants; missing response states retained,4.0 days
+H,OHQ870,Interdental cleaning days in the past week,1.0,253,7.147453788808258,,,3617,all included participants; missing response states retained,1.0 days
+H,OHQ870,Interdental cleaning days in the past week,7.0,1258,34.47355502745148,,,3617,all included participants; missing response states retained,7.0 days
+H,OHQ870,Interdental cleaning days in the past week,0.0,1060,25.646315847086626,,,3617,all included participants; missing response states retained,0.0 days
+H,OHQ870,Interdental cleaning days in the past week,5.0,131,4.474470249604668,,,3617,all included participants; missing response states retained,5.0 days
+H,OHQ870,Interdental cleaning days in the past week,3.0,349,11.06567190451374,,,3617,all included participants; missing response states retained,3.0 days
+H,OHQ870,Interdental cleaning days in the past week,2.0,333,10.483168721750303,,,3617,all included participants; missing response states retained,2.0 days
+H,OHQ870,Interdental cleaning days in the past week,6.0,32,0.8261451380638203,,,3617,all included participants; missing response states retained,6.0 days
+H,OHQ870,Interdental cleaning days in the past week,NUMERIC_MISSING,1,0.019334240959475127,,,3617,all included participants; missing response states retained,NUMERIC_MISSING
+H,OHQ875,Therapeutic mouthwash days in the past week,0.0,1540,45.72750400427389,,,3617,all included participants; missing response states retained,0.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,7.0,1269,30.697568521146483,,,3617,all included participants; missing response states retained,7.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,3.0,215,5.976249476573115,,,3617,all included participants; missing response states retained,3.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,1.0,151,4.042098736120006,,,3617,all included participants; missing response states retained,1.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,2.0,228,6.897011442395529,,,3617,all included participants; missing response states retained,2.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,5.0,81,2.654094093619128,,,3617,all included participants; missing response states retained,5.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,6.0,21,0.6653634784948543,,,3617,all included participants; missing response states retained,6.0 days
+H,OHQ875,Therapeutic mouthwash days in the past week,4.0,112,3.3401102473769937,,,3617,all included participants; missing response states retained,4.0 days
+H,OHQ030,Time since last dental visit,CAT_6,455,10.047131157538724,,,3617,all included participants; missing response states retained,More than 5 years ago
+H,OHQ030,Time since last dental visit,CAT_1,1642,52.36264107264243,,,3617,all included participants; missing response states retained,6 months or less
+H,OHQ030,Time since last dental visit,CAT_5,240,5.5658250806277545,,,3617,all included participants; missing response states retained,"More than 3 years, but not more than 5 years ago"
+H,OHQ030,Time since last dental visit,CAT_3,415,10.46665059796663,,,3617,all included participants; missing response states retained,"More than 1 year, but not more than 2 years ago"
+H,OHQ030,Time since last dental visit,CAT_4,281,6.83121033756956,,,3617,all included participants; missing response states retained,"More than 2 years, but not more than 3 years ago"
+H,OHQ030,Time since last dental visit,CAT_2,545,13.974433163597427,,,3617,all included participants; missing response states retained,"More than 6 months, but not more than 1 year ago"
+H,OHQ030,Time since last dental visit,CAT_7,38,0.7399946153842353,,,3617,all included participants; missing response states retained,Never have been
+H,OHQ030,Time since last dental visit,REFUSED,1,0.012113974673225609,,,3617,all included participants; missing response states retained,REFUSED
+H,OHQ850,Periodontal treatment history,CAT_1,861,21.616396139300996,,,3617,all included participants; missing response states retained,Yes
+H,OHQ850,Periodontal treatment history,CAT_2,2746,78.1030113480429,,,3617,all included participants; missing response states retained,No
+H,OHQ850,Periodontal treatment history,UNKNOWN,10,0.2805925126560984,,,3617,all included participants; missing response states retained,UNKNOWN
+H,OHQ860,Professionally reported bone loss,CAT_2,3131,87.45070915150079,,,3617,all included participants; missing response states retained,No
+H,OHQ860,Professionally reported bone loss,CAT_1,467,12.0870241921639,,,3617,all included participants; missing response states retained,Yes
+H,OHQ860,Professionally reported bone loss,UNKNOWN,19,0.4622666563353062,,,3617,all included participants; missing response states retained,UNKNOWN

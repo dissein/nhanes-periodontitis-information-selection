@@ -1,0 +1,1564 @@
+[
+  {
+    "algorithm": "EBM",
+    "k": 0,
+    "units": [],
+    "path_order": [],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR"
+    ],
+    "model_key": "m0",
+    "parameters": {
+      "C": 0.01
+    },
+    "threshold90": 0.2724803411682162,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 1,
+    "units": [
+      "DMDEDUC2"
+    ],
+    "path_order": [
+      "DMDEDUC2"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2"
+    ],
+    "model_key": "m1",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2407078227270515,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 2,
+    "units": [
+      "DMDEDUC2",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "OHQ030"
+    ],
+    "model_key": "m16385",
+    "parameters": {
+      "C": 10.0
+    },
+    "threshold90": 0.2465684885875398,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 3,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "model_key": "m16389",
+    "parameters": {
+      "C": 1.0
+    },
+    "threshold90": 0.2502097337598299,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 4,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "model_key": "m16391",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.231381442857405,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 5,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ030"
+    ],
+    "model_key": "m16455",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2280394746828377,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 6,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m49223",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2533704795277449,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 7,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m57415",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2418114909738063,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 8,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m122951",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2427191447481114,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 9,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m122983",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2340748895160747,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 10,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m123239",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2476411045740174,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 11,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m123751",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2464130603978039,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 12,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m123759",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2407353895893356,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 13,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010",
+      "OHQ640"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m124783",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2402033319630033,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 14,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010",
+      "OHQ640",
+      "HUQ010"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m124799",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2505475987862681,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 15,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010",
+      "OHQ640",
+      "HUQ010",
+      "OHQ680"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m126847",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2398783008043577,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 16,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010",
+      "OHQ640",
+      "HUQ010",
+      "OHQ680",
+      "OHQ865"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m126975",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2434707198987638,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "EBM",
+    "k": 17,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "OHQ030",
+      "SmokingStatus",
+      "INDFMIN2",
+      "OHQ845",
+      "OHQ850",
+      "OHQ875",
+      "OHQ860",
+      "OHQ835",
+      "OHQ855",
+      "OHQ620",
+      "DIQ010",
+      "OHQ640",
+      "HUQ010",
+      "OHQ680",
+      "OHQ865",
+      "OHQ870"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m131071",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2436953559504143,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 0,
+    "units": [],
+    "path_order": [],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR"
+    ],
+    "model_key": "m0",
+    "parameters": {
+      "C": 0.01
+    },
+    "threshold90": 0.2724803411682162,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 1,
+    "units": [
+      "DMDEDUC2"
+    ],
+    "path_order": [
+      "DMDEDUC2"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2"
+    ],
+    "model_key": "m1",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2462838708070978,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 2,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus"
+    ],
+    "model_key": "m5",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2400020162719364,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 3,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030"
+    ],
+    "model_key": "m16389",
+    "parameters": {
+      "C": 1.0
+    },
+    "threshold90": 0.2475130416652734,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 4,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ030"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ030"
+    ],
+    "model_key": "m16421",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2306022595204243,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 5,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m49189",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.231086620642374,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 6,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m49253",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2301756452102683,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 7,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m57445",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2347224760853529,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 8,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850"
+    ],
+    "model_key": "m57701",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2363209981451405,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 9,
+    "units": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m123237",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2330007807140513,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 10,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m123239",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2475607420311035,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 11,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m127335",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2376857964944501,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 12,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m128359",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2435933893405164,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 13,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640",
+      "OHQ865"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m128487",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2625022547837066,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 14,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640",
+      "OHQ865",
+      "DIQ010"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m128495",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2695896122568865,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 15,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640",
+      "OHQ865",
+      "DIQ010",
+      "OHQ620"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m129007",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2478402399947132,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 16,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640",
+      "OHQ865",
+      "DIQ010",
+      "OHQ620",
+      "HUQ010"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m129023",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2482634059120439,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  },
+  {
+    "algorithm": "XGBoost",
+    "k": 17,
+    "units": [
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "path_order": [
+      "DMDEDUC2",
+      "SmokingStatus",
+      "OHQ030",
+      "OHQ835",
+      "OHQ850",
+      "OHQ845",
+      "OHQ875",
+      "OHQ855",
+      "OHQ860",
+      "INDFMIN2",
+      "OHQ870",
+      "OHQ640",
+      "OHQ865",
+      "DIQ010",
+      "OHQ620",
+      "HUQ010",
+      "OHQ680"
+    ],
+    "fields": [
+      "RIDAGEYR",
+      "RIAGENDR",
+      "DMDEDUC2",
+      "INDFMIN2",
+      "SmokingStatus",
+      "DIQ010",
+      "HUQ010",
+      "OHQ835",
+      "OHQ845",
+      "OHQ865",
+      "OHQ855",
+      "OHQ620",
+      "OHQ640",
+      "OHQ680",
+      "OHQ870",
+      "OHQ875",
+      "OHQ030",
+      "OHQ850",
+      "OHQ860"
+    ],
+    "model_key": "m131071",
+    "parameters": {
+      "C": 0.1
+    },
+    "threshold90": 0.2436953559504143,
+    "threshold_basis": "full-source nested outer OOF pipeline predictions; not apparent training probability"
+  }
+]

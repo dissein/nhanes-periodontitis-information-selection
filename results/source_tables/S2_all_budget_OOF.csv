@@ -1,0 +1,55 @@
+method,k,auc,brier,source
+Exhaustive,0,0.6767609772525086,0.2197404100327327,original frozen age-sex OOF baseline
+EBM,0,0.6767609772525086,0.2197404100327327,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,0,0.6767609772525086,0.2197404100327327,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,1,0.7654780118350581,0.1928908503320314,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,1,0.7330226833730529,0.20358829238634,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,1,0.7369527876173791,0.2023829827200623,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,2,0.7763898227267483,0.18747262248745092,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,2,0.7594351410211216,0.1950625284264413,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,2,0.7575631102507815,0.1950076668059089,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,3,0.790870196582611,0.18210113668495045,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,3,0.7804917415419336,0.1866654926126855,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,3,0.7835256413527416,0.1850887748014159,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,4,0.7892257652648411,0.18318871570771375,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,4,0.7895656376513829,0.1828244761156907,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,4,0.788900095121653,0.1832762143440002,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,5,0.802279285069172,0.17785338073047763,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,5,0.7940856303965078,0.1811712029836958,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,5,0.8030533244833099,0.1776853294219922,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,6,0.8110009974718839,0.17350748590967957,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,6,0.8031840077624487,0.1777728877587016,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,6,0.8053179192382809,0.1763279524351582,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,7,0.8116940552197852,0.17304336154273026,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,7,0.8065046597408136,0.1754327749762657,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,7,0.8065849820828601,0.175262821687357,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,8,0.8134507647615179,0.17207401123939284,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,8,0.8089014257524352,0.1743546057063209,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,8,0.8091603955715326,0.1739851432133669,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,9,0.8166886828811004,0.1707455430872583,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,9,0.8142550564321572,0.1722498882383269,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,9,0.8162745679427317,0.1711993486990462,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,10,0.8163596009339669,0.17099814212224368,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,10,0.8138541232408838,0.1723971381792584,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,10,0.8132049228606537,0.1725414781598475,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,11,0.8161724531242583,0.17095101796491496,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,11,0.8137477115337446,0.1723572288772508,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,11,0.8147043977292172,0.1716689678574796,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,12,0.8174574838478668,0.17038309826088174,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,12,0.8117435003736146,0.1728193890996861,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,12,0.8127551362812044,0.1728418833343053,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,13,0.8178680112397266,0.17023847191171695,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,13,0.8108129653296139,0.1733188794327095,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,13,0.8148245474980246,0.1725389339607888,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,14,0.8176226840147701,0.17035669764778055,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,14,0.8111447543040223,0.1736330115858859,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,14,0.8145204432039497,0.1729678935086843,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,15,0.8189670096469615,0.16979634880005956,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,15,0.8118524492525032,0.1727243951609106,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,15,0.8120481534380657,0.1731694364381466,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,16,0.8171999966443847,0.17067258320329687,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,16,0.8123536438777564,0.1725053510045547,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,16,0.8149953225070368,0.1717899111744792,original frozen source_nested_outer_oof metrics; unchanged
+Exhaustive,17,0.8130117745138298,0.17222809877284792,selected frozen-inner-score model refitted on pai01; pooled outer OOF
+EBM,17,0.8130117745138298,0.1722280987728538,original frozen source_nested_outer_oof metrics; unchanged
+TreeSHAP,17,0.8130117745138298,0.1722280987728538,original frozen source_nested_outer_oof metrics; unchanged
