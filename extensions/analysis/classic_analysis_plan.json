@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-11-09T21:05:52.019240+00:00",
+  "purpose": "Post hoc fixed literature-derived predictor-set comparison, standalone author review",
+  "reference": "Eke PI, Dye BA. J Periodontol. 2009;80:1371-1379. doi:10.1902/jop.2009.080607. Figure1, p1373",
+  "reference_url": "https://doi.org/10.1902/jop.2009.080607",
+  "reference_set": "All eight predetermined CDC/AAP self-report questions, not a reduced stepwise-selected subset or original published coefficients",
+  "units": [
+    "OHQ835",
+    "OHQ845",
+    "OHQ865",
+    "OHQ855",
+    "OHQ870",
+    "OHQ875",
+    "OHQ850",
+    "OHQ860"
+  ],
+  "anchors": [
+    "RIDAGEYR",
+    "RIAGENDR"
+  ],
+  "source_cycle": "2011-2012",
+  "evaluation_cycle": "2013-2014",
+  "endpoint": "CDC/AAP moderate or severe, raw audited scalar classification",
+  "source_config_sha256": "d7ea4b08b6cff35dab8a0b2e71ea0434a7d6f00f33323011202591f3cf59a6b6",
+  "source_functions_sha256": "04e71703df67db7b1875f9411b03210b65897dfca2b3f7f45760af4ca7f37343",
+  "function_definitions": "Unchanged functions extracted from archived formal_common.py; attribution-only imports omitted",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "threshold": "Highest finite cutoff reaching >=90% weighted sensitivity on new pooled outer OOF predictions, frozen before target use",
+  "inference": "2000 paired full-design Rao-Wu PSU resamples, original target seed, fixed predictions and cutoffs, pointwise intervals",
+  "comparators": [
+    "EBM__k8",
+    "XGBoost__k8",
+    "EBM__k10",
+    "EBM__k17",
+    "EBM__k0",
+    "EBM__k3"
+  ],
+  "manuscript_integration": false
+}

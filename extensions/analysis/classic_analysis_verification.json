@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "source_n": 3323,
+  "target_n": 3617,
+  "source_only_threshold": 0.23680938367630375,
+  "selected_C": 0.1,
+  "source_oof_auc": 0.7848647155843838,
+  "source_oof_brier": 0.18439438493493956,
+  "original_outer_partitions_exact": true,
+  "existing_EBM8_refit_max_prediction_error": 1.1102230246251565e-16,
+  "original_comparator_points_reproduced": true,
+  "all_2000_draws_reproduce_original_EBM8_metrics": true,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "seconds": 8.654760837554932
+}

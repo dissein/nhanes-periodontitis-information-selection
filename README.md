@@ -1,14 +1,14 @@
 # NHANES periodontitis information selection
 
-Version 1.0.0 contains executable analysis code and frozen experimental assets for attribution-guided selection of self-reported information for periodontitis screening.
+Version 1.1.0 extends the frozen primary results with subgroup and additional calibration reporting, development intervals, a post hoc literature-derived oral-health item-set comparison, its paired decision curves, and current publication figure sources.
 
-The development cycle is NHANES 2011–2012 with 3,323 participants. The subsequent evaluation cycle is 2013–2014 with 3,617 participants. Age and sex are retained at every information budget. The candidate pool contains 17 units. The release includes 31 unique final Ridge predictors, 36 method–budget specifications, 655,355 exhaustive search records, 500 random orderings across budgets 0–17, 500 attribution-ranking bootstrap records, and 2,000 fixed-prediction PSU bootstrap replicates. PPV and NPV intervals are included.
+Versioned archive DOI is https://doi.org/10.5281/zenodo.24132635. Version 1.0.0 is available at https://doi.org/10.5281/zenodo.24029815. The v1.1.0 DOI has been reserved for the author-managed Zenodo deposit. Public availability of the new archive begins when that record is published.
 
-## Obtain the frozen assets
+`extensions/README.md` gives the new analysis entry points and source-table index. Primary frozen scientific assets are unchanged. This source repository includes the additional scripts and aggregate results. The full Zenodo archive additionally includes raw inputs, fitted objects, probability arrays, bootstrap arrays and the exhaustive ledger.
 
-The GitHub distribution contains source code, configuration, dictionaries and small result tables. Download `nhanes-periodontitis-v1.0.0.zip` from the associated Zenodo record to obtain the complete scientific archive. Its top-level folder matches the source ZIP. Extract it into the same project directory so that `core/data`, `raw`, `random`, `dca` and `exhaustive` are present alongside `scripts`.
+Before the new deposit is published, the primary asset files from version 1.0.0 can be combined with these source files in one project root to run the extension commands. Use a fresh output folder outside that root.
 
-The complete Zenodo archive also contains the source code and can be used directly. File integrity is recorded in `SHA256SUMS.csv`.
+## Primary reproduction workflow
 
 ## Environment
 
@@ -80,5 +80,7 @@ Cross-platform refitting can change the ordering of nearly tied probabilities. T
 | raw | Public NHANES XPT inputs and official codebooks |
 | results | Numerical source tables, table displays and figure source/artwork |
 | provenance | Source attribution, configuration lineage and implementation lineage |
+| extensions | Later analysis scripts, additional aggregate results and archived classic-comparison objects |
+| publication | Current publication figures and table exports |
 
 `docs/MODEL_FORMAT.md` explains model objects and path-specific cutoffs. `docs/RESULTS.md` maps the frozen analyses to their numerical evidence. Software licensing is in `LICENSE`. Original-output licensing is in `LICENSE-DATA.txt`.

@@ -1,0 +1,16 @@
+{
+  "B": 2000,
+  "seed_rule": "2026110200 + replicate",
+  "rows": 108,
+  "max_difference_existing_bootstrap": 2.55351295663786e-15,
+  "primary_estimates_reproduced": true,
+  "refitting": false,
+  "source_sha256": {
+    "core/data/model_input_G.csv.gz": "bb33797e5f630065733899ce1a00c04f9dfd4e7f6d9eba8ba24eb8999ecfad3a",
+    "core/data/design_G.csv": "e59aeeac2248c4ea5737cee6a2821471af016f1966f01f3010021be19e7809c2",
+    "core/development/pooled_outer_predictions.csv.gz": "be6e7550b9ddc8a823312e5e69657e9f4855657119c113c740b150104fbac1be",
+    "exhaustive/final_results_20261102/cloud_evaluation/exhaustive_pooled_outer_predictions.csv.gz": "3e83ea8dcef2c3a94fb1e95df8d98c9f05799cbdea31cda3033f836640b657ae",
+    "exhaustive/final_results_20261102/all_budget_oof_metrics.csv": "aa84827771fb67eb844c0c73ec1fbc3c729acce0ca30f829dd49533578fb307b",
+    "exhaustive/postprocessing_20261102/bootstrap_arrays.npz": "5952afab977f33573a0e4dfbd62260646924df8a36feba3dc7adb95a059f520e"
+  }
+}

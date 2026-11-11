@@ -1,0 +1,18 @@
+{
+  "units": [
+    "OHQ835",
+    "OHQ845",
+    "OHQ865",
+    "OHQ855",
+    "OHQ870",
+    "OHQ875",
+    "OHQ850",
+    "OHQ860"
+  ],
+  "parameters": {
+    "C": 0.1
+  },
+  "cutoff": 0.23680938367630375,
+  "saved_model_sha256": "2388b3c32a0cf9394ea6a60678cd738fbf095b961b455099efba9c2463f74993",
+  "target_data_accessed": false
+}

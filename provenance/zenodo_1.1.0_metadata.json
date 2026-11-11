@@ -1,0 +1,42 @@
+{
+  "title": "NHANES periodontitis information selection — code and frozen experimental results",
+  "upload_type": "dataset",
+  "version": "1.1.0",
+  "publication_date": "2026-11-11",
+  "doi": "10.5281/zenodo.24132635",
+  "creators": [
+    {
+      "name": "Zhou, Cheng",
+      "affiliation": "Department of Periodontology, Peking University School and Hospital of Stomatology",
+      "orcid": "0009-0003-2517-3282"
+    },
+    {
+      "name": "Shi, Dong",
+      "affiliation": "Department of Periodontology, Peking University School and Hospital of Stomatology"
+    }
+  ],
+  "description": "Version 1.1.0 adds post hoc demographic subgroup and calibration analyses, full development performance intervals, an Eke and Dye-derived eight-item oral-health comparison under the common ridge workflow, paired decision curves, analysis scripts, fitted comparator models, predictions, bootstrap arrays and aggregate outputs. The complete version 1.0.0 primary scientific assets are retained. Original code is MIT licensed and original derived outputs are CC BY 4.0. NHANES data and CDC documentation retain their original status and source attribution.",
+  "keywords": [
+    "NHANES",
+    "periodontitis",
+    "self-report",
+    "information selection",
+    "explainable machine learning",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dissein/nhanes-periodontitis-information-selection/tree/zc/supplementary-analyses-v1.1.0",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.24029815",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    }
+  ]
+}

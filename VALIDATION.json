@@ -1,134 +1,20 @@
 {
-  "version": "1.0.0",
-  "validation_date": "2026-11-07",
-  "python": "3.13.5",
-  "validated_platform": "Windows x86_64",
-  "native_linux_execution": "not_run",
-  "public_commands": [
-    {
-      "stage": "verify",
-      "status": "PASS"
-    },
-    {
-      "stage": "raw",
-      "status": "PASS"
-    },
-    {
-      "stage": "table1",
-      "status": "PASS"
-    },
-    {
-      "stage": "table2",
-      "status": "PASS"
-    },
-    {
-      "stage": "postprocess",
-      "status": "PASS"
-    },
-    {
-      "stage": "dca",
-      "status": "PASS"
-    },
-    {
-      "stage": "figures",
-      "status": "PASS"
-    },
-    {
-      "stage": "ppv",
-      "status": "PASS"
-    }
-  ],
-  "full_training_random_search_and_exhaustive_refitting": "not_run",
-  "frozen_models": {
+  "version": "1.1.0",
+  "validation_date": "2026-11-11",
+  "primary_validation": "provenance/version_1.0.0_validation.json",
+  "extension_verification": {
     "verified": true,
-    "model_records": 36,
-    "unique_ridge_models": 31,
-    "ranking_replicates": 500,
-    "topk_frequency_rows": 612,
-    "ppv_npv_interval_rows": 72,
-    "ppv_npv_paired_rows": 144,
-    "max_frozen_prediction_error": 0.0
+    "primary_asset_hashes_checked": 1017,
+    "electronic_tables_checked": 31,
+    "analysis_scripts_parsed": 4,
+    "classic_fitted_objects": 6,
+    "classic_point_comparisons": 105,
+    "statistical_function_ASTs_preserved": true,
+    "model_refitting_performed": false,
+    "bootstrap_recomputation_performed": false
   },
-  "exhaustive_records": 655355,
-  "random_metric_rows": 9000,
-  "raw_reconstruction": [
-    {
-      "cycle": "G",
-      "rows": 3323,
-      "reproduced": true
-    },
-    {
-      "cycle": "H",
-      "rows": 3617,
-      "reproduced": true
-    }
-  ],
-  "byte_identical_figure_pngs": [
-    "Figure1_participants_workflow.png",
-    "Figure2_budget_performance.png",
-    "Figure3_priorities_stability.png",
-    "Figure4_temporal_validation.png"
-  ],
-  "output_guards": [
-    {
-      "stage": "verify",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "raw",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "table1",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "table2",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "postprocess",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "dca",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "figures",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "ppv",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "train",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "random",
-      "inside_package_output_rejected": true
-    },
-    {
-      "stage": "exhaustive",
-      "inside_package_output_rejected": true
-    }
-  ],
-  "original_input_files_checked": 1002,
-  "scientific_assets_preserved_by_hash": {
-    ".npz": 23,
-    ".gz": 17,
-    ".joblib": 283,
-    ".json": 500,
-    ".xpt": 12,
-    ".sqlite": 1
-  },
-  "frozen_configuration_preserved": true,
-  "personal_path_or_instance_id_matches": 0,
-  "manuscript_files": 0,
-  "editorial_files": 0,
-  "code_license": "MIT",
-  "original_output_license": "CC-BY-4.0",
-  "git_line_endings": "Byte preservation enforced by .gitattributes"
+  "archived_numerical_replay_records": "extensions/analysis/*verification.json",
+  "journal_SI_tables": "S1–S18",
+  "archive_doi": "10.5281/zenodo.24132635",
+  "archive_status": "Reserved DOI for author-managed deposit"
 }

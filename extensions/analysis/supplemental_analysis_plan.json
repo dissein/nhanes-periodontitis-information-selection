@@ -1,0 +1,54 @@
+{
+  "analysis_date": "2026-11-09",
+  "scope": "post hoc exploratory supplemental evaluation of frozen predictions",
+  "models": [
+    "EBM__k0",
+    "EBM__k3",
+    "XGBoost__k8",
+    "EBM__k10",
+    "EBM__k17"
+  ],
+  "groups": {
+    "sex": [
+      "Female",
+      "Male"
+    ],
+    "age": [
+      "30–44",
+      "45–64",
+      "65+"
+    ],
+    "race_ethnicity": [
+      "Mexican American",
+      "Other Hispanic",
+      "Non-Hispanic White",
+      "Non-Hispanic Black",
+      "Non-Hispanic Asian",
+      "Other or multiracial"
+    ]
+  },
+  "reference_groups": {
+    "sex": "Female",
+    "age": "30–44",
+    "race_ethnicity": "Non-Hispanic White"
+  },
+  "B": 2000,
+  "seed_rule": "2026102400 + replicate",
+  "intervals": "pointwise percentile 95%; paired draws for contrasts; no multiplicity adjustment",
+  "subgroup_metrics": [
+    "auc",
+    "brier",
+    "sensitivity",
+    "specificity",
+    "ppv",
+    "npv",
+    "flagged_fraction",
+    "prevalence",
+    "mean_risk",
+    "observed_expected_ratio"
+  ],
+  "calibration": "joint intercept/slope fitted to full evaluation cohort, with intervals",
+  "model_refitting": false,
+  "threshold_reselection": false,
+  "subgroup_specific_thresholds": false
+}
