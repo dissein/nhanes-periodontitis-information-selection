@@ -2,11 +2,11 @@
 
 Version 1.1.0 extends the frozen primary results with subgroup and additional calibration reporting, development intervals, a post hoc literature-derived oral-health item-set comparison, its paired decision curves, and current publication figure sources.
 
-Versioned archive DOI is https://doi.org/10.5281/zenodo.24132635. Version 1.0.0 is available at https://doi.org/10.5281/zenodo.24029815. The v1.1.0 DOI has been reserved for the author-managed Zenodo deposit. Public availability of the new archive begins when that record is published.
+The published version 1.1.0 archive is available at https://doi.org/10.5281/zenodo.24132635. The previous version 1.0.0 remains available at https://doi.org/10.5281/zenodo.24029815.
 
 `extensions/README.md` gives the new analysis entry points and source-table index. Primary frozen scientific assets are unchanged. This source repository includes the additional scripts and aggregate results. The full Zenodo archive additionally includes raw inputs, fitted objects, probability arrays, bootstrap arrays and the exhaustive ledger.
 
-Before the new deposit is published, the primary asset files from version 1.0.0 can be combined with these source files in one project root to run the extension commands. Use a fresh output folder outside that root.
+For complete reproduction, download and extract the version 1.1.0 Zenodo archive, which includes the primary assets and extension source files in one project root. Use a fresh output folder outside that root.
 
 ## Primary reproduction workflow
 
