@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img">
+<title>NHANES study design</title>
+<desc>Study population and analytical framework. Development uses 3,323 participants from NHANES 2011–2012 and temporal validation uses 3,617 participants from NHANES 2013–2014.</desc>
+<rect width="1600" height="820" fill="white"/>
+
+<!-- ==================== PANEL A: STUDY POPULATION ==================== -->
+<rect x="10" y="8" width="1580" height="204" rx="4" fill="white" stroke="#555555" stroke-width="1.2"/>
+<text x="32" y="46" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#111111" text-anchor="start">A   Study population</text>
+
+<!-- Column headers -->
+<text x="415" y="42" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">All participants</text>
+<text x="650" y="42" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">Age ≥30 years</text>
+<text x="885" y="42" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">Positive MEC weight</text>
+<text x="1125" y="34" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">Complete periodontal</text>
+<text x="1125" y="57" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">examination</text>
+<text x="1420" y="34" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">Classifiable</text>
+<text x="1420" y="57" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111" text-anchor="middle">CDC/AAP outcome</text>
+
+<!-- Row 1: NHANES 2011-2012 (Development) -->
+<rect x="46" y="73" width="248" height="56" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="97" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">NHANES 2011–2012</text>
+<text x="170" y="119" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">Development cohort</text>
+
+<polyline points="294.00,101.00 347.00,101.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="347.00,101.00 339.00,97.50 339.00,104.50" fill="#222222"/>
+<rect x="350" y="77" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="415" y="109" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 9,756</text>
+
+<polyline points="480.00,101.00 582.00,101.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="582.00,101.00 574.00,97.50 574.00,104.50" fill="#222222"/>
+<rect x="585" y="77" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="650" y="109" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 4,566</text>
+
+<polyline points="715.00,101.00 817.00,101.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="817.00,101.00 809.00,97.50 809.00,104.50" fill="#222222"/>
+<rect x="820" y="77" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="885" y="109" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 4,365</text>
+
+<polyline points="950.00,101.00 1057.00,101.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="1057.00,101.00 1049.00,97.50 1049.00,104.50" fill="#222222"/>
+<rect x="1060" y="77" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="1125" y="109" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 3,685</text>
+
+<polyline points="1190.00,101.00 1352.00,101.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="1352.00,101.00 1344.00,97.50 1344.00,104.50" fill="#222222"/>
+<rect x="1355" y="77" width="130" height="48" rx="4" fill="white" stroke="#111111" stroke-width="1.8"/>
+<text x="1420" y="109" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" fill="#111111" text-anchor="middle">n = 3,323</text>
+
+<!-- Row 2: NHANES 2013-2014 (Validation) -->
+<rect x="46" y="140" width="248" height="56" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="164" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">NHANES 2013–2014</text>
+<text x="170" y="186" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">Validation cohort</text>
+
+<polyline points="294.00,168.00 347.00,168.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="347.00,168.00 339.00,164.50 339.00,171.50" fill="#222222"/>
+<rect x="350" y="144" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="415" y="176" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 10,175</text>
+
+<polyline points="480.00,168.00 582.00,168.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="582.00,168.00 574.00,164.50 574.00,171.50" fill="#222222"/>
+<rect x="585" y="144" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="650" y="176" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 4,813</text>
+
+<polyline points="715.00,168.00 817.00,168.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="817.00,168.00 809.00,164.50 809.00,171.50" fill="#222222"/>
+<rect x="820" y="144" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="885" y="176" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 4,669</text>
+
+<polyline points="950.00,168.00 1057.00,168.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="1057.00,168.00 1049.00,164.50 1049.00,171.50" fill="#222222"/>
+<rect x="1060" y="144" width="130" height="48" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="1125" y="176" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" fill="#111111" text-anchor="middle">n = 3,982</text>
+
+<polyline points="1190.00,168.00 1352.00,168.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="1352.00,168.00 1344.00,164.50 1344.00,171.50" fill="#222222"/>
+<rect x="1355" y="144" width="130" height="48" rx="4" fill="white" stroke="#111111" stroke-width="1.8"/>
+<text x="1420" y="176" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" fill="#111111" text-anchor="middle">n = 3,617</text>
+
+
+<!-- ==================== PANEL B: ANALYTICAL FRAMEWORK ==================== -->
+<rect x="10" y="225" width="1580" height="585" rx="4" fill="white" stroke="#555555" stroke-width="1.2"/>
+<text x="32" y="263" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#111111" text-anchor="start">B   Analytical framework</text>
+
+<!-- ==================== STAGE 1: INTERNAL EVALUATION ==================== -->
+<rect x="24" y="282" width="484" height="512" rx="4" fill="white" stroke="#444444" stroke-width="1.2"/>
+<line x1="24" y1="350" x2="508" y2="350" stroke="#444444" stroke-width="1.2"/>
+<text x="44" y="311" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="start">Stage 1. Internal strategy evaluation</text>
+<text x="44" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="start">Development cohort (2011–2012, n = 3,323)</text>
+
+<text x="266" y="390" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">5-fold PSU-grouped nested CV</text>
+
+<!-- 5-fold schematic (outline + dark holdout) -->
+<text x="97" y="425" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="middle">F1</text>
+<rect x="76" y="438" width="43" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+<rect x="76" y="457" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="76" y="476" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="76" y="495" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="76" y="514" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+
+<text x="149" y="425" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="middle">F2</text>
+<rect x="128" y="438" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="128" y="457" width="43" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+<rect x="128" y="476" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="128" y="495" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="128" y="514" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+
+<text x="201" y="425" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="middle">F3</text>
+<rect x="180" y="438" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="180" y="457" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="180" y="476" width="43" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+<rect x="180" y="495" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="180" y="514" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+
+<text x="253" y="425" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="middle">F4</text>
+<rect x="232" y="438" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="232" y="457" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="232" y="476" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="232" y="495" width="43" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+<rect x="232" y="514" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+
+<text x="305" y="425" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="middle">F5</text>
+<rect x="284" y="438" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="284" y="457" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="284" y="476" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="284" y="495" width="43" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<rect x="284" y="514" width="43" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+
+<rect x="358" y="464" width="20" height="14" fill="white" stroke="#555555" stroke-width="1"/>
+<text x="388" y="478" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="start">Training</text>
+<rect x="358" y="495" width="20" height="14" fill="#333333" stroke="#222222" stroke-width="1"/>
+<text x="388" y="509" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111" text-anchor="start">Held out</text>
+
+<!-- Lines to 4 strategies -->
+<polyline points="266.00,534.00 266.00,552.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="88.00,552.00 444.00,552.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+<polyline points="88.00,552.00 88.00,572.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="88.00,572.00 91.50,564.50 84.50,564.50" fill="#222222"/>
+<rect x="44" y="574" width="88" height="42" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="88" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">EBM</text>
+<polyline points="88.00,616.00 88.00,636.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+<polyline points="202.00,552.00 202.00,572.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="202.00,572.00 205.50,564.50 198.50,564.50" fill="#222222"/>
+<rect x="142" y="574" width="120" height="42" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="202" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">TreeSHAP</text>
+<polyline points="202.00,616.00 202.00,636.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+<polyline points="329.00,552.00 329.00,572.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="329.00,572.00 332.50,564.50 325.50,564.50" fill="#222222"/>
+<rect x="272" y="574" width="114" height="42" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="329" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">Exhaustive</text>
+<polyline points="329.00,616.00 329.00,636.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+<polyline points="444.00,552.00 444.00,572.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="444.00,572.00 447.50,564.50 440.50,564.50" fill="#222222"/>
+<rect x="396" y="574" width="96" height="42" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="444" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">Random</text>
+<polyline points="444.00,616.00 444.00,636.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+<polyline points="88.00,636.00 444.00,636.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="266.00,636.00 266.00,664.00" fill="none" stroke="#222222" stroke-width="1.4"/>
+<polygon points="266.00,664.00 269.50,656.50 262.50,656.50" fill="#222222"/>
+
+<!-- Common predictor box -->
+<rect x="44" y="666" width="444" height="108" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="266" y="698" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Common ridge logistic regression</text>
+<text x="266" y="727" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">Tuned across 3 inner PSU folds</text>
+<text x="266" y="756" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">Pooled OOF AUC and Brier score</text>
+
+
+<!-- ==================== STAGE 2: FULL-SAMPLE ATTRIBUTION & SELECTION ==================== -->
+<rect x="540" y="282" width="584" height="512" rx="4" fill="white" stroke="#444444" stroke-width="1.2"/>
+<line x1="540" y1="350" x2="1124" y2="350" stroke="#444444" stroke-width="1.2"/>
+<text x="560" y="311" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="start">Stage 2. Full-sample ranking and model specification</text>
+<text x="560" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="start">Complete development cohort (n = 3,323)</text>
+
+<!-- Global attribution ranking box -->
+<rect x="560" y="366" width="544" height="82" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="832" y="395" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Global attribution ranking (17 candidate units)</text>
+<rect x="668" y="406" width="144" height="32" rx="3" fill="white" stroke="#222222" stroke-width="1.1"/>
+<text x="740" y="429" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">EBM</text>
+<rect x="852" y="406" width="144" height="32" rx="3" fill="white" stroke="#222222" stroke-width="1.1"/>
+<text x="924" y="429" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">TreeSHAP</text>
+
+<polyline points="832.00,448.00 832.00,465.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="690.00,465.00 974.00,465.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="690.00,465.00 690.00,483.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="690.00,483.00 693.50,475.50 686.50,475.50" fill="#222222"/>
+<polyline points="974.00,465.00 974.00,483.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="974.00,483.00 977.50,475.50 970.50,475.50" fill="#222222"/>
+
+<!-- Left sub-box: Ranking stability & shared core -->
+<rect x="560" y="485" width="260" height="190" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="690" y="516" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Priority and stability</text>
+<text x="690" y="546" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">Shared Top-3 units;</text>
+<text x="690" y="572" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">500 PSU bootstrap refits</text>
+<polyline points="690.00,584.00 690.00,610.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="690.00,610.00 693.50,602.50 686.50,602.50" fill="#222222"/>
+<rect x="606" y="612" width="168" height="48" rx="4" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="690" y="643" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Shared 3-unit</text>
+
+<!-- Right sub-box: Information budgets -->
+<rect x="844" y="485" width="260" height="190" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="974" y="516" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Information budgets</text>
+<text x="974" y="546" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">&gt;80% cumulative</text>
+<text x="974" y="572" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">attribution criterion</text>
+<polyline points="974.00,582.00 974.00,594.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="912.00,594.00 1036.00,594.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="912.00,594.00 912.00,610.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="912.00,610.00 915.50,602.50 908.50,602.50" fill="#222222"/>
+<polyline points="1036.00,594.00 1036.00,610.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="1036.00,610.00 1039.50,602.50 1032.50,602.50" fill="#222222"/>
+
+<rect x="856" y="612" width="112" height="52" rx="4" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="912" y="635" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#111111" text-anchor="middle">TreeSHAP</text>
+<text x="912" y="657" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#111111" text-anchor="middle">8-unit</text>
+
+<rect x="980" y="612" width="112" height="52" rx="4" fill="white" stroke="#111111" stroke-width="1.5"/>
+<text x="1036" y="635" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#111111" text-anchor="middle">EBM</text>
+<text x="1036" y="657" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#111111" text-anchor="middle">10-unit</text>
+
+<!-- Convergence to final frozen models -->
+<polyline points="690.00,675.00 690.00,694.00 974.00,694.00 974.00,675.00" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polyline points="832.00,694.00 832.00,724.00" fill="none" stroke="#222222" stroke-width="1.4"/>
+<polygon points="832.00,724.00 835.50,716.50 828.50,716.50" fill="#222222"/>
+<text x="896" y="715" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="normal" fill="#333333" text-anchor="start">0-unit &amp; 17-unit references</text>
+<polyline points="888.00,709.00 832.00,709.00" fill="none" stroke="#222222" stroke-width="1.1"/>
+<polygon points="832.00,709.00 839.50,712.00 839.50,706.00" fill="#222222"/>
+
+<rect x="560" y="726" width="544" height="52" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="832" y="759" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Frozen ridge models and ≥90%-sensitivity cutoffs</text>
+
+
+<!-- ==================== STAGE 3: TEMPORAL VALIDATION ==================== -->
+<rect x="1156" y="282" width="420" height="512" rx="4" fill="white" stroke="#444444" stroke-width="1.2"/>
+<line x1="1156" y1="350" x2="1576" y2="350" stroke="#444444" stroke-width="1.2"/>
+<text x="1176" y="311" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="start">Stage 3. Temporal validation</text>
+<text x="1176" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="start">Validation cohort (2013–2014, n = 3,617)</text>
+
+<rect x="1181" y="366" width="370" height="52" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="1366" y="399" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#111111" text-anchor="middle">Direct application without refitting</text>
+
+<polyline points="1366.00,418.00 1366.00,476.00" fill="none" stroke="#222222" stroke-width="1.4"/>
+<polygon points="1366.00,476.00 1369.50,468.50 1362.50,468.50" fill="#222222"/>
+
+<rect x="1181" y="478" width="370" height="114" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="1366" y="520" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Predictive performance</text>
+<text x="1366" y="558" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">AUC, Brier score, calibration</text>
+
+<polyline points="1366.00,592.00 1366.00,644.00" fill="none" stroke="#222222" stroke-width="1.4"/>
+<polygon points="1366.00,644.00 1369.50,636.50 1362.50,636.50" fill="#222222"/>
+
+<rect x="1181" y="646" width="370" height="132" rx="4" fill="white" stroke="#222222" stroke-width="1.2"/>
+<text x="1366" y="684" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Screening performance</text>
+<text x="1366" y="720" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">Sensitivity, specificity, PPV, NPV,</text>
+<text x="1366" y="750" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#333333" text-anchor="middle">screen-positive proportion, DCA</text>
+
+<!-- Inter-stage arrows -->
+<polyline points="508.00,538.00 538.00,538.00" fill="none" stroke="#111111" stroke-width="1.8"/>
+<polygon points="538.00,538.00 530.00,534.00 530.00,542.00" fill="#111111"/>
+
+<polyline points="1124.00,538.00 1154.00,538.00" fill="none" stroke="#111111" stroke-width="1.8"/>
+<polygon points="1154.00,538.00 1146.00,534.00 1146.00,542.00" fill="#111111"/>
+
+</svg>

@@ -1,0 +1,18 @@
+{
+  "version": "1.1.0",
+  "date": "2026-11-11",
+  "previous_version": "1.0.0",
+  "previous_doi": "10.5281/zenodo.24029815",
+  "doi": "10.5281/zenodo.24132635",
+  "primary_scientific_assets": "Preserved byte-for-byte",
+  "additions": [
+    "Later subgroup and additional calibration analyses",
+    "Development interval reporting",
+    "Eke and Dye-derived classic item-set comparison",
+    "Frozen classic comparator objects and probability/bootstrap arrays",
+    "Current publication vector artwork and table exports"
+  ],
+  "manuscript_integration": true,
+  "new_data_collection": false,
+  "primary_model_reselection": false
+}

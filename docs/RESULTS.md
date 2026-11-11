@@ -18,3 +18,8 @@
 | Table displays and figure data | results/tables, results/figure1, results/figures |
 
 The complete subsequent-cycle interval table contains 288 rows and the paired-difference table contains 576. PPV and NPV additions use the same 2,000 Rao-Wu PSU draws and fixed cutoffs as the original metrics. Intervals are pointwise percentile intervals conditional on saved predictions. The random selection distribution contains 500 repetitions at each of 18 budgets.
+
+
+## Version 1.1.0 additions
+
+`extensions/FILE_INDEX.csv` maps the complete electronic tables to their source locations. Added scripts and original verification records are in `extensions/analysis`. The full archive includes `extensions/frozen/classic` with six fitted objects and the original development, temporal and bootstrap outputs. `publication/tables` contains current reader-facing table exports, and `publication/figures` contains current publication artwork. The original numerical assets and primary frozen artwork under `results` retain their version 1.0.0 bytes.

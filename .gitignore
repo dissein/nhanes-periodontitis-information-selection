@@ -18,3 +18,7 @@ Thumbs.db
 /core/source_final/*.joblib
 /core/source_final/*.npz
 /exhaustive_bundle/frozen/
+
+/extensions/frozen/
+
+/publication/figures/*.png

@@ -1,17 +1,16 @@
 cff-version: 1.2.0
-message: "Please cite the versioned Zenodo record for these research assets."
+message: "Please cite the versioned Zenodo archive."
 type: software
 title: "NHANES periodontitis information selection"
-version: 1.0.0
-date-released: 2026-11-07
+version: 1.1.0
+date-released: 2026-11-11
+doi: 10.5281/zenodo.24132635
 authors:
   - family-names: Zhou
     given-names: Cheng
-    affiliation: Peking University Health Science Center
+    affiliation: Department of Periodontology, Peking University School and Hospital of Stomatology
+    orcid: "https://orcid.org/0009-0003-2517-3282"
+  - family-names: Shi
+    given-names: Dong
+    affiliation: Department of Periodontology, Peking University School and Hospital of Stomatology
 license: MIT
-keywords:
-  - NHANES
-  - periodontitis
-  - information selection
-  - explainable machine learning
-  - complex surveys

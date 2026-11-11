@@ -1,0 +1,79 @@
+{
+  "plan": {
+    "analysis_date": "2026-11-09",
+    "scope": "post hoc exploratory supplemental evaluation of frozen predictions",
+    "models": [
+      "EBM__k0",
+      "EBM__k3",
+      "XGBoost__k8",
+      "EBM__k10",
+      "EBM__k17"
+    ],
+    "groups": {
+      "sex": [
+        "Female",
+        "Male"
+      ],
+      "age": [
+        "30–44",
+        "45–64",
+        "65+"
+      ],
+      "race_ethnicity": [
+        "Mexican American",
+        "Other Hispanic",
+        "Non-Hispanic White",
+        "Non-Hispanic Black",
+        "Non-Hispanic Asian",
+        "Other or multiracial"
+      ]
+    },
+    "reference_groups": {
+      "sex": "Female",
+      "age": "30–44",
+      "race_ethnicity": "Non-Hispanic White"
+    },
+    "B": 2000,
+    "seed_rule": "2026102400 + replicate",
+    "intervals": "pointwise percentile 95%; paired draws for contrasts; no multiplicity adjustment",
+    "subgroup_metrics": [
+      "auc",
+      "brier",
+      "sensitivity",
+      "specificity",
+      "ppv",
+      "npv",
+      "flagged_fraction",
+      "prevalence",
+      "mean_risk",
+      "observed_expected_ratio"
+    ],
+    "calibration": "joint intercept/slope fitted to full evaluation cohort, with intervals",
+    "model_refitting": false,
+    "threshold_reselection": false,
+    "subgroup_specific_thresholds": false
+  },
+  "source_sha256": {
+    "core/data/model_input_G.csv.gz": "bb33797e5f630065733899ce1a00c04f9dfd4e7f6d9eba8ba24eb8999ecfad3a",
+    "core/data/model_input_H.csv.gz": "58af4396cac0924e2d25805dfcd5795a3ebb6c539acd3b4abcfda6a7706e3772",
+    "core/temporal/paired_predictions.csv.gz": "6cb8e5b2d58d043c0f19fb161b4d86774ff02bec69692f41e9945501b147832f",
+    "core/data/design_H.csv": "48b0ddd4e81ff021e8b42238dff023626d1a5bd792c48bde4294cadead1948e3",
+    "core/source_final/all_budget_plans.json": "f5bf0397cd7f1fab2ea7346d3d6f187b5b95d7dbb7658d77bd9e071c29b35382",
+    "core/temporal/temporal_metrics.csv": "3dce6e04b7f7eedbab0a95a03465e4981df1850bc9ce120a0100dc9d207df56b",
+    "core/bootstrap_fixed_target/bootstrap_arrays.npz": "a571df7366c5fea87db72b68dcad813fb4756afc0fe5dc2505f259aab474b804",
+    "raw/DEMO_G.xpt": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "raw/DEMO_H.xpt": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7"
+  },
+  "counts": {
+    "subgroup_characteristics": 22,
+    "subgroup_performance": 550,
+    "subgroup_contrasts": 400,
+    "calibration_intervals": 10
+  },
+  "validation": "original full-cohort points and all 2000 archived bootstrap draws reproduced within 1e-9",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "saved_predictions_unchanged": true
+}
